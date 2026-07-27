@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. 
+. reghdfe salary_round c1 c2 if year > 2012, a(totalexp2 masterup)
+(dropped 1 singleton observations)
+(MWFE estimator converged in 3 iterations)
+
+HDFE Linear regression                            Number of obs   =        738
+Absorbing 2 HDFE groups                           F(   2,    702) =       1.17
+                                                  Prob > F        =     0.3101
+                                                  R-squared       =     0.9795
+                                                  Adj R-squared   =     0.9785
+                                                  Within R-sq.    =     0.0033
+                                                  Root MSE        =  1027.2053
+
+------------------------------------------------------------------------------
+salary_round | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+          c1 |  -159425.6   655948.1    -0.24   0.808     -1447281     1128430
+          c2 |  -9.03e+07   6.16e+07    -1.47   0.143    -2.11e+08    3.06e+07
+       _cons |   52920.86   2961.994    17.87   0.000     47105.43    58736.28
+------------------------------------------------------------------------------
+
+Absorbed degrees of freedom:
+-----------------------------------------------------+
+ Absorbed FE | Categories  - Redundant  = Num. Coefs |
+-------------+---------------------------------------|
+   totalexp2 |        33           0          33     |
+    masterup |         2           1           1     |
+-----------------------------------------------------+
+
+. reghdfe salary_round c1 c2 if year > 2012, ///
+>     a(totalexp2 masterup district_code)
+(dropped 3 singleton observations)
+(MWFE estimator converged in 9 iterations)
+
+HDFE Linear regression                            Number of obs   =        736
+Absorbing 3 HDFE groups                           F(   2,    674) =       0.97
+                                                  Prob > F        =     0.3781
+                                                  R-squared       =     0.9818
+                                                  Adj R-squared   =     0.9801
+                                                  Within R-sq.    =     0.0029
+                                                  Root MSE        =   988.8384
+
+------------------------------------------------------------------------------
+salary_round | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+          c1 |   25579.37   813290.2     0.03   0.975     -1571308     1622466
+          c2 |  -8.94e+07   6.48e+07    -1.38   0.168    -2.17e+08    3.79e+07
+       _cons |   52983.92   3114.251    17.01   0.000     46869.12    59098.72
+------------------------------------------------------------------------------
+
+Absorbed degrees of freedom:
+-------------------------------------------------------+
+   Absorbed FE | Categories  - Redundant  = Num. Coefs |
+---------------+---------------------------------------|
+     totalexp2 |        33           0          33     |
+      masterup |         2           1           1     |
+ district_code |        28           2          26    ?|
+-------------------------------------------------------+
+? = number of redundant parameters may be higher
+
+. reghdfe salary_round c1 c2 if year > 2012, ///
+>     a(totalexp2 masterup district_code schoolid)
+(dropped 3 singleton observations)
+(MWFE estimator converged in 9 iterations)
+
+HDFE Linear regression                            Number of obs   =        736
+Absorbing 4 HDFE groups                           F(   2,    674) =       0.97
+                                                  Prob > F        =     0.3781
+                                                  R-squared       =     0.9818
+                                                  Adj R-squared   =     0.9801
+                                                  Within R-sq.    =     0.0029
+                                                  Root MSE        =   988.8384
+
+------------------------------------------------------------------------------
+salary_round | Coefficient  Std. err.      t    P>|t|     [95% conf. interval]
+-------------+----------------------------------------------------------------
+          c1 |   25579.37   813290.2     0.03   0.975     -1571308     1622466
+          c2 |  -8.94e+07   6.48e+07    -1.38   0.168    -2.17e+08    3.79e+07
+       _cons |   52983.92   3114.251    17.01   0.000     46869.12    59098.72
+------------------------------------------------------------------------------
+
+Absorbed degrees of freedom:
+-------------------------------------------------------+
+   Absorbed FE | Categories  - Redundant  = Num. Coefs |
+---------------+---------------------------------------|
+     totalexp2 |        33           0          33     |
+      masterup |         2           1           1     |
+ district_code |        28           2          26    ?|
+      schoolid |        28          28           0    ?|
+-------------------------------------------------------+
+? = number of redundant parameters may be higher
+
+. 
+. capture log close

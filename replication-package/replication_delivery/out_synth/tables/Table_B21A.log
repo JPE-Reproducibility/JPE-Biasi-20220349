@@ -1,0 +1,139 @@
+-------------------------------------------------------------------------------
+      name:  table_b21a
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. 
+. * Experience.
+. use "$sim/experiencecont_pre_NEW.dta", clear
+
+. summarize totalexp2
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   totalexp2 |      6,741    9.841567    7.004183          1         28
+
+. summarize totalexp2 if totalexp2 < 3
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   totalexp2 |      1,740    1.666667      .47154          1          2
+
+. summarize totalexp2 if totalexp2 >= 10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   totalexp2 |      3,118    16.17511    4.693711         10         28
+
+. 
+. egen tag = tag(id)
+
+. count if tag == 1
+  6,741
+
+. count if totalexp2 < 3 & tag == 1
+  1,740
+
+. count if totalexp2 >= 10 & tag == 1
+  3,118
+
+. 
+. * Master's degree.
+. use "$sim/master_pre_NEW.dta", clear
+
+. rename masterup master
+
+. merge 1:1 id using "$sim/experiencecont_pre_NEW.dta"
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             6,741  (_merge==3)
+    -----------------------------------------
+
+. drop _merge
+
+. summarize master
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+      master |      6,741    .4956238    .5000179          0          1
+
+. summarize master if totalexp2 < 3
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+      master |      1,740    .5333333    .4990311          0          1
+
+. summarize master if totalexp2 >= 10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+      master |      3,118    .5285439    .4992646          0          1
+
+. 
+. * Teacher contributions.
+. use "$sim/contributions_pre_NEW.dta", clear
+
+. merge 1:1 id using "$sim/experiencecont_pre_NEW.dta"
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             6,741  (_merge==3)
+    -----------------------------------------
+
+. drop _merge
+
+. merge 1:1 id using "$sim/master_pre_NEW.dta"
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             6,741  (_merge==3)
+    -----------------------------------------
+
+. drop _merge
+
+. gen c0 = xb0 + v0
+
+. gen c1 = xb1 + v1
+
+. summarize c0 c1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          c0 |      6,741   -.0000378    .0001009  -.0008711   .0004113
+          c1 |      6,741   -.0000312    .0000373  -.0001314   .0000112
+
+. summarize c0 c1 if totalexp2 < 3
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          c0 |      1,740   -3.89e-06    .0000551   -.000028   .0002417
+          c1 |      1,740    7.10e-06    4.85e-06  -5.14e-06   .0000112
+
+. summarize c0 c1 if totalexp2 >= 10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          c0 |      3,118   -.0000537    .0000324  -.0002567   .0000114
+          c1 |      3,118   -.0000512    .0000148  -.0000594  -6.48e-06
+
+. corr c0 c1
+(obs=6,741)
+
+             |       c0       c1
+-------------+------------------
+          c0 |   1.0000
+          c1 |   0.5170   1.0000
+
+
+. 
+. log close table_b21a
+      name:  table_b21a
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ closed on:  deterministic synthetic run
+-------------------------------------------------------------------------------

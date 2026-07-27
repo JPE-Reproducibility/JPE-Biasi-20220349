@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. su alpha0_ alpha1_
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+     alpha0_ |        411    .9997567    .0708825         .9        1.1
+     alpha1_ |        411     66.0219     63.3779          0        200
+
+. corr alpha0_ alpha1_
+(obs=411)
+
+             |  alpha0_  alpha1_
+-------------+------------------
+     alpha0_ |   1.0000
+     alpha1_ |  -0.0048   1.0000
+
+
+. gen alpha10 = alpha0_ == 1 & alpha1_ == 0
+
+. su alpha10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+     alpha10 |        411    .0291971    .1685638          0          1
+
+. su Alpha1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+      Alpha1 |        411    .8564477    .3510625          0          1
+
+. log close
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ closed on:  deterministic synthetic run
+-------------------------------------------------------------------------------

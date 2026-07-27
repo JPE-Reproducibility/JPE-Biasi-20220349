@@ -1,0 +1,47 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. foreach v in CExp1_ba D2_ba D4_ba D5_ba D6_ba Dexp_ma {
+  2.     display "Variable: `: var label `v''"
+  3.     summarize `v'
+  4. }
+Variable: \delta^0
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    CExp1_ba |        411    24495.27    6186.398  -4947.552   46702.15
+Variable: \delta^e >=15
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       D2_ba |        411   -561.1348    5309.902   -47535.2   50699.97
+Variable: 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       D4_ba |        411    19730.54    7634.817  -47102.94   58598.55
+Variable: 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       D5_ba |        411    30803.07      6517.7  -146.6666   70690.55
+Variable: 
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       D6_ba |        411    37816.23     6088.68   14975.32   73508.27
+Variable: \delta^m(MA)
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+     Dexp_ma |        411    -10942.8    2733.232  -25422.48   4480.571
+
+. log close
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ closed on:  deterministic synthetic run
+-------------------------------------------------------------------------------

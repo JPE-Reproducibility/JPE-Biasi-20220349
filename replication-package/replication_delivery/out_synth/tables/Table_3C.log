@@ -1,0 +1,45 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. estpost tabstat rural dmed budget_pc if alpha1_ != ., by(Alpha1)
+
+Summary statistics: mean
+     for variables: rural dmed budget_pc
+  by categories of: Alpha1
+
+      Alpha1 |  e(rural)    e(dmed)  e(budge~) 
+-------------+---------------------------------
+           0 |  .7627119   .0169492   46.92974 
+           1 |     .8125   .0284091   46.75352 
+-------------+---------------------------------
+       Total |  .8053528    .026764   46.77882 
+
+. estpost ttest rural dmed budget_pc if alpha1_ != ., by(Alpha1)
+
+             |      e(b)   e(count)      e(se)       e(t)    e(df_t) 
+-------------+-------------------------------------------------------
+       rural | -.0497881        411   .0557799  -.8925827        409 
+        dmed | -.0114599        411   .0227527  -.5036741        409 
+   budget_pc |  .1762168        411   .5117399   .3443484        409 
+
+             |    e(p_l)       e(p)     e(p_u)     e(N_1)    e(mu_1) 
+-------------+-------------------------------------------------------
+       rural |  .1863028   .3726056   .8136972         59   .7627119 
+        dmed |  .3073808   .6147616   .6926192         59   .0169492 
+   budget_pc |  .6346194   .7307613   .3653806         59   46.92974 
+
+             |    e(N_2)    e(mu_2) 
+-------------+----------------------
+       rural |       352      .8125 
+        dmed |       352   .0284091 
+   budget_pc |       352   46.75352 
+
+. log close
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ closed on:  deterministic synthetic run
+-------------------------------------------------------------------------------

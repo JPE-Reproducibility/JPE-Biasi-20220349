@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. use "$est/multinomial.dta", clear
+
+. keep if Match == 1
+(2,706,000 observations deleted)
+
+. 
+. sum wage
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        wage |      6,600    46.78073    13.76536   28.77746   75.41679
+
+. sum wage if Exp1 == 1 | Exp2 == 1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        wage |      1,624    29.40937     3.13212   28.77746   52.23359
+
+. sum wage if Exp3 == 1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        wage |        196    34.64344    5.949164   28.77746   55.96682
+
+. sum wage if Exp4 == 1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        wage |        680    40.57403    5.816836   28.77746   62.47492
+
+. sum wage if Exp5 == 1 | Exp6 == 1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+        wage |      4,100    55.27111     9.42253   28.77746   75.41679
+
+. log close
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ closed on:  deterministic synthetic run
+-------------------------------------------------------------------------------

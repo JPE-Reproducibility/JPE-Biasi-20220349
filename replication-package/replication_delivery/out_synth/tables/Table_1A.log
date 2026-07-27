@@ -1,0 +1,136 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. * Experience.
+. use "$est/experiencecont.dta", clear
+
+. sum totalexp2
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   totalexp2 |      6,600    12.92182    8.464286          1         32
+
+. sum totalexp2 if totalexp < 3
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   totalexp2 |      1,596    1.596491    .4907549          1          2
+
+. sum totalexp2 if totalexp >= 10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+   totalexp2 |      4,440    17.76216    5.606389         10         32
+
+. 
+. egen tag = tag(id)
+
+. count if totalexp2 < 3 & tag == 1
+  1,596
+
+. count if totalexp >= 10
+  4,440
+
+. 
+. * Master's degree.
+. use "$est/master.dta", clear
+
+. sort id
+
+. merge 1:1 id using "$est/experiencecont.dta"
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             6,600  (_merge==3)
+    -----------------------------------------
+
+. drop _m
+
+. sum master
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    masterup |      6,600          .5    .5000379          0          1
+
+. sum master if totalexp < 3
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    masterup |      1,596    .5263158    .4994635          0          1
+
+. sum master if totalexp >= 10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+    masterup |      4,440    .5351351    .4988202          0          1
+
+. 
+. * Teacher contributions.
+. use "$est/contributions.dta", clear
+
+. sort id
+
+. merge 1:1 id using "$est/experiencecont.dta"
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             6,600  (_merge==3)
+    -----------------------------------------
+
+. drop _m
+
+. merge 1:1 id using "$est/master.dta"
+
+    Result                      Number of obs
+    -----------------------------------------
+    Not matched                             0
+    Matched                             6,600  (_merge==3)
+    -----------------------------------------
+
+. drop _m
+
+. gen c0 = xb0 + v0
+
+. gen c1 = xb1 + v1
+
+. sum c0 c1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          c0 |      6,600   -.0000371    .0000527   -.000324   .0004113
+          c1 |      6,600     .000017    .0000109  -7.59e-07   .0000388
+
+. sum c0 c1 if totalexp < 3
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          c0 |      1,596    .0000114    .0000514   -.000324   .0000337
+          c1 |      1,596    .0000221    .0000185  -7.59e-07   .0000388
+
+. sum c0 c1 if totalexp >= 10
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+          c0 |      4,440   -.0000514    .0000392  -.0001097   .0004113
+          c1 |      4,440    .0000161    5.07e-06   2.15e-06   .0000204
+
+. corr c0 c1
+(obs=6,600)
+
+             |       c0       c1
+-------------+------------------
+          c0 |   1.0000
+          c1 |   0.0894   1.0000
+
+
+. log close
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ closed on:  deterministic synthetic run
+-------------------------------------------------------------------------------

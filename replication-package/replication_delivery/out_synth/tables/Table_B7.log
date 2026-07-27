@@ -1,0 +1,82 @@
+-------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  deterministic synthetic exhibit log
+  log type:  text
+ opened on:  deterministic synthetic run
+
+. 
+. qui sum res_c [aw = nrst], det
+
+. local mc: di %9.4f r(mean)
+
+. disp "c, all students = `mc'"
+c, all students =    0.0000
+
+. qui sum res_c01 [aw = nrst], det
+
+. local mc0: di %9.4f r(mean)
+
+. disp "(c1,c2), all students = `mc0'"
+(c1,c2), all students =    0.0000
+
+. local diff: disp %3.1f 100*((`mc'/`mc0') - 1)
+
+. disp "Difference, all students = `diff'%"
+Difference, all students =   .%
+
+. 
+. preserve
+
+. keep if lambda == 1
+(448 observations deleted)
+
+. qui sum res_c [aw = nrst], det
+
+. local mc: di %9.4f r(mean)
+
+. disp "c, tau_k=1 = `mc'"
+c, tau_k=1 =    0.0000
+
+. qui sum res_c01 [aw = nrst], det
+
+. local mc0: di %9.4f r(mean)
+
+. disp "(c1,c2), tau_k=1 = `mc0'"
+(c1,c2), tau_k=1 =    0.0000
+
+. local diff: disp %3.1f 100*((`mc'/`mc0') - 1)
+
+. disp "Difference, tau_k=1 = `diff'%"
+Difference, tau_k=1 =   .%
+
+. restore
+
+. 
+. preserve
+
+. keep if lambda == 0
+(501 observations deleted)
+
+. qui sum res_c [aw = nrst], det
+
+. local mc: di %9.4f r(mean)
+
+. disp "c, tau_k=2 = `mc'"
+c, tau_k=2 =    0.0000
+
+. qui sum res_c01 [aw = nrst], det
+
+. local mc0: di %9.4f r(mean)
+
+. disp "(c1,c2), tau_k=2 = `mc0'"
+(c1,c2), tau_k=2 =    0.0000
+
+. local diff: disp %3.1f 100*((`mc'/`mc0') - 1)
+
+. disp "Difference, tau_k=2 = `diff'%"
+Difference, tau_k=2 =   .%
+
+. restore
+
+. 
+. capture log close
