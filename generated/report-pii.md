@@ -15,9 +15,6 @@
 | Data | `15staff.csv` | 19 | name, birth, degree, loc, school, location, lname, address, city, zip, phone |
 | Data | `16staff.csv` | 19 | name, birth, degree, loc, school, location, lname, address, city, zip, phone |
 | Data | `ACS-ED_2013-2017_RecordLayouts.xlsx` | 1 | name |
-| Data | `ACS-ED_2013-2017_RecordLayouts.xlsx` | 1 | name |
-| Data | `ACS-ED_2013-2017_RecordLayouts.xlsx` | 1 | name |
-| Data | `ACS-ED_2013-2017_RecordLayouts.xlsx` | 1 | name |
 | Data | `Linked_Staffing_Data_10202015.csv` | 4 | last_name, name, first_name, birth, sex |
 | Data | `Table_6.csv` | 1 | name |
 | Data | `Table_B14.csv` | 1 | district |
@@ -33,139 +30,10 @@
 | Data | `district_id_tag.dta` | 1 | district |
 | Data | `district_id_tag_validation.dta` | 1 | district |
 | Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_contribution.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
-| Data | `eqbm_dist_hires.txt` | 2 | district, city |
 | Data | `eqbm_dist_hires.txt` | 2 | district, city |
 | Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_dist_wages.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
-| Data | `eqbm_omegas.txt` | 1 | district |
 | Data | `eqbm_omegas.txt` | 1 | district |
 | Data | `omega2_probs.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
-| Data | `state_burden.txt` | 1 | district |
 | Data | `state_burden.txt` | 1 | district |
 | Data | `student_demographics.csv` | 3 | school, gender, city |
 | Data | `synthetic_data_manifest.csv` | 1 | lat |
@@ -211,35 +79,7 @@
 | Code | `aux_district_noninc3_JPE.tex` | 1 | city |
 | Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
 | Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
 | Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
-| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
 | Code | `aux_model_teachers_wages.do` | 73 | school, district, loc, name, city |
 | Code | `aux_other_moments.do` | 24 | school, loc, name, district, city |
 | Code | `auxiliary_models_districts.do` | 101 | school, district, city, name, loc |
@@ -250,36 +90,7 @@
 | Code | `auxiliary_models_teachers_richprefs.do` | 13 | school, district, son, loc, location |
 | Code | `auxmodels_teachers_varobust.do` | 51 | school, name, district, degree, loc, lat |
 | Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
 | Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 9 | lat, loc, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
-| Code | `belief_functions.f90` | 2 | lat, district |
 | Code | `budget_overtime.do` | 5 | school, district, name |
 | Code | `budget_shifts.do` | 2 | school, district |
 | Code | `build_distance_matrix.do` | 7 | district |
@@ -302,421 +113,41 @@
 | Code | `gen_omegas_tenured.do` | 41 | school, district, loc, name |
 | Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
 | Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
 | Code | `global_variables.f90` | 12 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 12 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
 | Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
 | Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
 | Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
-| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
 | Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
 | Code | `lambda_map.do` | 14 | school, district, lon |
 | Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
 | Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 17 | loc, district, city, lat |
 | Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
 | Code | `main.f90` | 74 | loc, district, city, lat, block |
 | Code | `main.f90` | 38 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 17 | loc, district, city, lat |
-| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
 | Code | `make_simulated_data.do` | 6 | lat, loc |
-| Code | `master.do` | 22 | school, loc, lat, lon, district |
 | Code | `master.do` | 22 | school, loc, lat, lon, district |
 | Code | `master_synth.do` | 31 | school, loc, lat, lon, district |
 | Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `nrutil.f90` | 69 | loc, lon |
-| Code | `objective.f90` | 10 | lat, district |
 | Code | `objective.f90` | 10 | lat, district |
 | Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 10 | lat, district |
 | Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 9 | lat, district |
-| Code | `objective.f90` | 27 | lat, loc, district |
-| Code | `objective.f90` | 9 | lat, district |
 | Code | `oldteacher_roster_build.do` | 155 | school, birth, first_name, last_name, name, sex, gender, district, son |
 | Code | `omega_analysis.do` | 10 | school, district, city, degree, name, loc |
 | Code | `omega_databuild.do` | 110 | district, census, loc, name, school, lon, city, lat |
 | Code | `produce_exhibits.do` | 13 | school, loc, lat, district |
 | Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `random.f90` | 3 | lat, loc |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
 | Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
 | Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
-| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
 | Code | `rothstein_test.do` | 33 | school, district, loc, lon, name |
 | Code | `run_all_local.sh` | 6 | loc, lat, lon, name |
 | Code | `salary_variation.do` | 4 | school, district |
 | Code | `schedule_new.do` | 123 | school, district, loc, lon, second |
 | Code | `schedule_summary.do` | 3 | school, district, lon |
 | Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
 | Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
 | Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
-| Code | `simplex_salvador_inner.f90` | 7 | loc |
 | Code | `simplex_salvador_inner.f90` | 7 | loc |
 | Code | `staff_build.do` | 212 | school, name, gender, birth, loc, lname, zip, degree, location, district, son |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
-| Code | `statistical_models.f90` | 1 | lat |
 | Code | `statistical_models.f90` | 1 | lat |
 | Code | `summary.do` | 76 | school, district, degree, lon, loc, name, city |
 | Code | `summary_simulation.do` | 36 | school, lat, district, degree, name, lon, loc, city |
@@ -725,101 +156,12 @@
 | Code | `teachers_with_allva.do` | 12 | school, name, district, birth |
 | Code | `testscores_build.do` | 35 | school, name, gender, city, district |
 | Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `timer.f90` | 9 | loc |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 3 | district, school, lon |
-| Code | `utility_functions.f90` | 5 | district, school, lon |
 | Code | `utility_functions.f90` | 5 | district, school, lon |
 | Code | `utility_functions.f90` | 3 | district, school, lon |
 | Code | `va_teacherside_build.do` | 10 | school, district, lon |
 | Code | `valueadded_calculation.do` | 13 | school, lat, district, loc, lon |
 | Code | `valueadded_calculation_classmodel.do` | 20 | school, lat, district, loc, lon, name |
 | Code | `valueadded_calculation_stockstaiger_nocomparativeadv.do` | 12 | school, lat, district, loc, lon |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
-| Code | `write_moments.f90` | 83 | lat, district, city, son |
 | Code | `write_moments.f90` | 83 | lat, district, city, son |
 
 *See [Appendix](report-pii-appendix.md) for detailed listing of all flagged instances.*
