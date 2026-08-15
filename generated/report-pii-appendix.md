@@ -1,1272 +1,663 @@
 ## Appendix: Detailed PII Detection Results
 
-*Generated on 2026-07-27 13:15:23*
+*Generated on 2026-08-15 20:29:53*
 
 This appendix lists all detected instances of potential personally identifiable information (PII) in the project files. Each entry shows the matched PII terms and, for data files, sample values to help verify whether the flagged content is indeed sensitive.
 
-### Data Files
-
-**/replication-package/replication_delivery/code/fortran_model/1_baseline/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/1_baseline/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/1_baseline/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/1_baseline/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/1_baseline/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11035276789142329, 0.117926869740084
-
-**/replication-package/replication_delivery/code/fortran_model/2_rigid/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/2_rigid/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/2_rigid/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/2_rigid/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new1/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new1/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new1/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new1/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new1/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11036688834854852, 0.11794013541262278
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new2/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new2/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new2/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new2/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new2/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11036516759193687, 0.1179383808852798
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new3/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new3/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new3/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new3/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new3/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.1103663877348894, 0.1179396228650967
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new4/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new4/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new4/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new4/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/3_basicCfs/new4/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11036702470283642, 0.11794036444411302
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case1/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case1/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case1/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case1/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case1/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11508216633584592, 0.11744876635277744
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.18227907355025896, 0.17816863391992896
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2_new2/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2_new2/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2_new2/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2_new2/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case2_new2/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.18196582442331696, 0.17796108978960937
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case_baseline/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case_baseline/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case_baseline/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case_baseline/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/4_nomovecost/case_baseline/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.1103605627885056, 0.11838954263407736
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/baseline/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/baseline/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/baseline/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/baseline/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/baseline/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.12326677809973548
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_05/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_05/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_05/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_05/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_05/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.13880510626657683
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_1/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_1/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_1/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_1/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_1/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.13880510626657683
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_15/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_15/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_15/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_15/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new1_15/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.13889279650416805
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_05/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_05/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_05/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_05/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_05/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.13838352523704145
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_1/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_1/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_1/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_1/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_1/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.13880360130153904
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_15/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_15/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_15/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_15/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/5_exitentry/new2_15/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.13880360130153904
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_baseline/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_baseline/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_baseline/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_baseline/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_baseline/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.18260161755845225
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new1/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new1/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new1/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new1/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new1/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.1843452817415868
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new2/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new2/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new2/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new2/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/6_forward/forward_new2/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.10996804142521414, 0.11779588643567428, 0.18447737620707275
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_15/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_15/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_15/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_15/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_15/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11037395012783811, 0.1179467694247166
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_2/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_2/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_2/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_2/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_2/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11038101294093404, 0.1179534042205594
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_25/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_25/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_25/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_25/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/7_higherbonus/new1_25/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.11039514166974834, 0.1179666761644634
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new1/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new1/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new1/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new1/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new1/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.17673034784290434, 0.17466083987169545
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new2/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new2/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new2/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new2/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new2/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.17672903069292095, 0.17465937373262808
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new3/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new3/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new3/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new3/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new3/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.1767299637159375, 0.1746604108780709
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new4/result/eqbm_dist_contribution.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new4/result/eqbm_dist_hires.txt**
-
-- Variable: `capacity`
-  - Matched terms: city
-  - Sample values: 17.0, 16.0
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new4/result/eqbm_dist_wages.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new4/result/eqbm_omegas.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/code/fortran_model/8_noRcost/new4/result/state_burden.txt**
-
-- Variable: `rewarded_district`
-  - Matched terms: district
-  - Sample values: 0.17673049255648066, 0.17466106130938985
-
-**/replication-package/replication_delivery/code/fortran_model/estimation_result/result/omega2_probs.txt**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/out_synth/tables/Table_6.csv**
-
-- Variable: `subset_name`
-  - Matched terms: name
-  - Sample values: All Districts, 4th quartile, 3rd quartile
-
-**/replication-package/replication_delivery/out_synth/tables/Table_B14.csv**
-
-- Variable: `district`
-  - Matched terms: district
-  - Sample values: .%, 0.00%
-
-**/replication-package/replication_delivery/out_synth/tables/Table_B22.csv**
-
-- Variable: `district_group`
-  - Matched terms: district
-  - Sample values: lambda_d, budget_capacity, Urban
-
-**/replication-package/replication_delivery/out_synth/tables/Table_B25.csv**
-
-- Variable: `district_group`
-  - Matched terms: district
-  - Sample values: lambda_d, budget_capacity, Urban
-
-**/replication-package/replication_delivery/real_data/cesa.dta**
-
-- Variable: `district_code`
-  - Matched terms: district
-  - Sample values: 7.0, 14.0, 63.0
-- Variable: `district_name`
-  - Matched terms: district, name
-  - Sample values: Abbotsford, Adams-Friendship Area, Albany
-
-**/replication-package/replication_delivery/real_data/crosswalk_census_state_id.csv**
-
-- Variable: `District Name`
-  - Matched terms: district, name
-  - Sample values: 21st Century Preparatory School Agency, Abbotsford School District, Adams-Friendship Area School District
-- Variable: `district_code`
-  - Matched terms: district
-  - Sample values: WI-8110, WI-0007, WI-0014
-
-**/replication-package/replication_delivery/real_data/crosswalk_district_county.dta**
-
-- Variable: `district_code` (label: *Code of working agency (contract-specific)*)
-  - Matched terms: district
-  - Sample values: 14.0, 2205.0, 4543.0
-
-**/replication-package/replication_delivery/real_data/cz_id.csv**
-
-- Variable: `district_id`
-  - Matched terms: district
-  - Sample values: 1, 2, 3
-
-**/replication-package/replication_delivery/real_data/district_county_cz.dta**
-
-- Variable: `district_code` (label: *State District ID*)
-  - Matched terms: district
-  - Sample values: 7.0, 14.0, 63.0
-
-**/replication-package/replication_delivery/real_data/district_id_tag.dta**
-
-- Variable: `district_code` (label: *District ID*)
-  - Matched terms: district
-  - Sample values: 7.0, 14.0, 63.0
-
-**/replication-package/replication_delivery/real_data/district_id_tag_validation.dta**
-
-- Variable: `district_code` (label: *group(group_by_value)*)
-  - Matched terms: district
-  - Sample values: 7.0, 14.0, 63.0
-
-**/replication-package/replication_delivery/real_data/district_shapefiles/WI_School_Districts.dbf**
-
-- Variable: `DISTRICT`
-  - Matched terms: district
-  - Sample values: Abbotsford, Adams-Friendship Area, Albany
-
-**/replication-package/replication_delivery/real_data/district_shapefiles/WI_School_Districts.dta**
-
-- Variable: `DISTRICT` (label: *DISTRICT*)
-  - Matched terms: district
-  - Sample values: Abbotsford, Adams-Friendship Area, Albany
-- Variable: `_CX` (label: *x-coordinate of area centroid*)
-  - Matched terms: coord
-  - Sample values: 496985.765441264, 537080.3866100273, 565148.5526962501
-- Variable: `_CY` (label: *y-coordinate of area centroid*)
-  - Matched terms: coord
-  - Sample values: 498673.79409441777, 389046.5681601551, 250543.04439153816
-
-**/replication-package/replication_delivery/real_data/nces_acs_2013-2017/EDGE_Export_101244429626/ACS-ED_2013-2017_RecordLayouts.xlsx**
-
-- Variable: `Variable name`
-  - Matched terms: name
-  - Sample values: GeoId, Geography, LEAID
-
-**/replication-package/replication_delivery/real_data/nces_acs_2013-2017/EDGE_Export_101244639981/ACS-ED_2013-2017_RecordLayouts.xlsx**
-
-- Variable: `Variable name`
-  - Matched terms: name
-  - Sample values: GeoId, Geography, LEAID
-
-**/replication-package/replication_delivery/real_data/nces_acs_2013-2017/EDGE_Export_1012447445/ACS-ED_2013-2017_RecordLayouts.xlsx**
-
-- Variable: `Variable name`
-  - Matched terms: name
-  - Sample values: GeoId, Geography, LEAID
-
-**/replication-package/replication_delivery/real_data/nces_acs_2013-2017/EDGE_Export_101253245819/ACS-ED_2013-2017_RecordLayouts.xlsx**
-
-- Variable: `Variable name`
-  - Matched terms: name
-  - Sample values: GeoId, Geography, LEAID
-
-**/replication-package/replication_delivery/synthetic_data/documentation/synthetic_data_manifest.csv**
-
-- Variable: `relative_file_path`
-  - Matched terms: lat
-  - Sample values: raw/staff/06staff.txt, raw/staff/07staff.txt, raw/staff/08staff.txt
-
-**/replication-package/replication_delivery/synthetic_data/raw/staff/15staff.csv**
-
-- Variable: `AdminName`
-  - Matched terms: name
-  - Sample values: Synthetic Admin
-- Variable: `BirthYear`
-  - Matched terms: birth
-  - Sample values: 1960, 1961, 1962
-- Variable: `CntyName`
-  - Matched terms: name
-  - Sample values: Synthetic County 03, Synthetic County 04, Synthetic County 05
-- Variable: `FirstName`
-  - Matched terms: name
-  - Sample values: P0002-Giv X, P0003-Giv X, P0004-Giv X
-- Variable: `HighDegree`
-  - Matched terms: degree
-  - Sample values: X, 7, 4
-- Variable: `LastName`
-  - Matched terms: name
-  - Sample values: S0002-Unit X, S0003-Unit X, S0004-Unit X
-- Variable: `LocalExp`
-  - Matched terms: loc
-  - Sample values: 10, 14, 18
-- Variable: `MailCity`
-  - Matched terms: city
-  - Sample values: Synthetic City
-- Variable: `MailZipCd`
-  - Matched terms: zip
-  - Sample values: ZIP, 53102, 53103
-- Variable: `Phone`
-  - Matched terms: phone
-  - Sample values: 000-000-0000
-- Variable: `SchoolCd`
-  - Matched terms: school
-  - Sample values: 1902, 1903, 1904
-- Variable: `SchoolMailingAddress1`
-  - Matched terms: address, school
-  - Sample values: Synthetic Address
-- Variable: `SchoolMailingAddress2`
-  - Matched terms: address, school
-- Variable: `SchoolName`
-  - Matched terms: lname, name, school
-  - Sample values: Synthetic School 1902, Synthetic School 1903, Synthetic School 1904
-- Variable: `SchoolShippingAddress1`
-  - Matched terms: address, school
-  - Sample values: Synthetic Address
-- Variable: `SchoolShippingAddress2`
-  - Matched terms: address, school
-- Variable: `ShipCity`
-  - Matched terms: city
-  - Sample values: Synthetic City
-- Variable: `ShipZipCd`
-  - Matched terms: zip
-  - Sample values: ZIP, 53102, 53103
-- Variable: `WorkLocationName`
-  - Matched terms: loc, location, name
-  - Sample values: Synthetic District 0422, Synthetic District 0665, Synthetic District 2793
-
-**/replication-package/replication_delivery/synthetic_data/raw/staff/16staff.csv**
-
-- Variable: `AdminName`
-  - Matched terms: name
-  - Sample values: Synthetic Admin
-- Variable: `BirthYear`
-  - Matched terms: birth
-  - Sample values: 1960, 1961, 1962
-- Variable: `CntyName`
-  - Matched terms: name
-  - Sample values: Synthetic County 03, Synthetic County 04, Synthetic County 05
-- Variable: `FirstName`
-  - Matched terms: name
-  - Sample values: P0002-Giv X, P0003-Giv X, P0004-Giv X
-- Variable: `HighDegree`
-  - Matched terms: degree
-  - Sample values: X, 7, 4
-- Variable: `LastName`
-  - Matched terms: name
-  - Sample values: S0002-Unit X, S0003-Unit X, S0004-Unit X
-- Variable: `LocalExp`
-  - Matched terms: loc
-  - Sample values: 11, 15, 19
-- Variable: `MailCity`
-  - Matched terms: city
-  - Sample values: Synthetic City
-- Variable: `MailZipCd`
-  - Matched terms: zip
-  - Sample values: ZIP, 53102, 53103
-- Variable: `Phone`
-  - Matched terms: phone
-  - Sample values: 000-000-0000
-- Variable: `SchoolCd`
-  - Matched terms: school
-  - Sample values: 1902, 1903, 1904
-- Variable: `SchoolMailingAddress1`
-  - Matched terms: address, school
-  - Sample values: Synthetic Address
-- Variable: `SchoolMailingAddress2`
-  - Matched terms: address, school
-- Variable: `SchoolName`
-  - Matched terms: lname, name, school
-  - Sample values: Synthetic School 1902, Synthetic School 1903, Synthetic School 1904
-- Variable: `SchoolShippingAddress1`
-  - Matched terms: address, school
-  - Sample values: Synthetic Address
-- Variable: `SchoolShippingAddress2`
-  - Matched terms: address, school
-- Variable: `ShipCity`
-  - Matched terms: city
-  - Sample values: Synthetic City
-- Variable: `ShipZipCd`
-  - Matched terms: zip
-  - Sample values: ZIP, 53102, 53103
-- Variable: `WorkLocationName`
-  - Matched terms: loc, location, name
-  - Sample values: Synthetic District 0422, Synthetic District 0665, Synthetic District 2793
-
-**/replication-package/replication_delivery/synthetic_data/raw/staff/temp.dta**
-
-- Variable: `birth`
-  - Matched terms: birth
-  - Sample values: 1960.0, 1961.0, 1962.0
-- Variable: `district_code`
-  - Matched terms: district
-  - Sample values: 413.0, 422.0, 665.0
-- Variable: `firstname`
-  - Matched terms: name
-  - Sample values: P1001-Giv X, P0002-Giv X, P0003-Giv X
-- Variable: `gender`
-  - Matched terms: gender
-  - Sample values: M, F
-- Variable: `lastname`
-  - Matched terms: name
-  - Sample values: S11001-Unit X, S0002-Unit X, S0003-Unit X
-
-**/replication-package/replication_delivery/synthetic_data/raw/teacher_data_linked/Linked_Staffing_Data_10202015.csv**
-
-- Variable: `birth_year`
-  - Matched terms: birth
-  - Sample values: NA, 1960, 1961
-- Variable: `first_name`
-  - Matched terms: first_name, name
-  - Sample values: P1001-Giv X, P0002-Giv X, P0003-Giv X
-- Variable: `last_name`
-  - Matched terms: last_name, name
-  - Sample values: S11001-Unit X, S0002-Unit X, S0003-Unit X
-- Variable: `sex`
-  - Matched terms: sex
-  - Sample values: M, F
-
-**/replication-package/replication_delivery/synthetic_data/raw/testscores_indlev/student_demographics.csv**
-
-- Variable: `GENDER`
-  - Matched terms: gender
-  - Sample values: M, F
-- Variable: `RACE_ETHNICITY`
-  - Matched terms: city
-  - Sample values: Black, Hispanic, Asian
-- Variable: `SCHOOL_YEAR`
-  - Matched terms: school
-  - Sample values: 2005-2006, 2006-2007, 2007-2008
-
-**/replication-package/replication_delivery/synthetic_data/raw/testscores_indlev/testscores.csv**
-
-- Variable: `SCHOOL_YEAR`
-  - Matched terms: school
-  - Sample values: 2005-2006, 2006-2007, 2007-2008
-- Variable: `TEST_NAME`
-  - Matched terms: name
-  - Sample values: SYNTEST
+### Full Summary Table
+
+| File Type | File | Variables/References | PII Categories |
+|-----------|------|----------------------|----------------|
+| Code | `00_project_globals.do` | 3 | lat, loc |
+| Code | `02_make_synthetic_data.do` | 192 | lat, loc, school, lon, name, gender, birth, district, lname, zip, degree, location, address, city, phone, last_name, first_name, sex, son |
+| Code | `03_validate_synthetic_structure.do` | 75 | lat, block, loc, name, gender, birth, school, lname, zip, lon, district, city |
+| Code | `Draft_final.tex` | 612 | lat, name, district, school, lon, loc, location, city, second, social, son, house, degree, network, census |
+| Code | `Figure_4.do` | 7 | lon, name, loc |
+| Code | `Figure_B9.do` | 3 | district |
+| Code | `Online_Appendix_Sept2025.tex` | 370 | lat, name, district, school, city, gender, lon, son, second, degree, block, loc, location |
+| Code | `Table_5_Table_A1.do` | 28 | name, loc, lon, district |
+| Code | `Table_6.do` | 64 | loc, name, district, city |
+| Code | `Table_7.do` | 50 | loc, name, district, city |
+| Code | `Table_8.do` | 27 | loc, name, district, city |
+| Code | `Table_A2.do` | 31 | district, loc, name |
+| Code | `Table_A3_PanelA.do` | 19 | district, loc |
+| Code | `Table_A3_PanelB.do` | 5 | district, city, name |
+| Code | `Table_B14.do` | 44 | name, lat, district |
+| Code | `Table_B15.do` | 26 | name, loc, district, lat |
+| Code | `Table_B16.do` | 35 | loc, name, district |
+| Code | `Table_B17.do` | 32 | loc, lat, name, district |
+| Code | `Table_B18.do` | 46 | loc, name, district, city |
+| Code | `Table_B19.do` | 55 | loc, name, district, city |
+| Code | `Table_B20.do` | 55 | loc, name, district, city |
+| Code | `Table_B22.do` | 57 | district, loc, city |
+| Code | `Table_B23.do` | 27 | district, loc, city |
+| Code | `Table_B24.do` | 31 | district, loc, name |
+| Code | `Table_B25.do` | 57 | district, loc, city |
+| Code | `Table_B3.tex` | 2 | school |
+| Code | `_synthetic_model_helpers.do` | 52 | district, school, lon, name, loc |
+| Code | `achievement_race.do` | 14 | school, city, district, loc, lon |
+| Code | `appendix_figures.do` | 47 | school, district, loc, name, lon, lat |
+| Code | `aux_district_all1_JPE.tex` | 1 | city |
+| Code | `aux_district_all2_JPE.tex` | 1 | city |
+| Code | `aux_district_all3_JPE.tex` | 1 | city |
+| Code | `aux_district_all_mean1_JPE.tex` | 1 | city |
+| Code | `aux_district_all_mean2_JPE.tex` | 1 | city |
+| Code | `aux_district_all_mean3_JPE.tex` | 1 | city |
+| Code | `aux_district_noninc1_JPE.tex` | 1 | city |
+| Code | `aux_district_noninc2_JPE.tex` | 1 | city |
+| Code | `aux_district_noninc3_JPE.tex` | 1 | city |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 87 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 88 | lat, district, loc, city, lon, second |
+| Code | `aux_model.f90` | 116 | lat, district, loc, city, location, lon, second |
+| Code | `aux_model_teachers_wages.do` | 73 | school, district, loc, name, city |
+| Code | `aux_other_moments.do` | 24 | school, loc, name, district, city |
+| Code | `auxiliary_models_districts.do` | 101 | school, district, city, name, loc |
+| Code | `auxiliary_models_teachers.do` | 3 | school, loc |
+| Code | `auxiliary_models_teachers_info.do` | 11 | school, district |
+| Code | `auxiliary_models_teachers_info_matches.do` | 28 | school, loc, name, city, district, lon, lat |
+| Code | `auxiliary_models_teachers_nobottom.do` | 27 | school, district, son, loc, name |
+| Code | `auxiliary_models_teachers_richprefs.do` | 13 | school, district, son, loc, location |
+| Code | `auxmodels_teachers_varobust.do` | 51 | school, name, district, degree, loc, lat |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `belief_functions.f90` | 9 | lat, loc, district |
+| Code | `belief_functions.f90` | 2 | lat, district |
+| Code | `budget_overtime.do` | 5 | school, district, name |
+| Code | `budget_shifts.do` | 2 | school, district |
+| Code | `build_distance_matrix.do` | 7 | district |
+| Code | `build_model_dataset.do` | 151 | school, district, loc, birth, name, lon, city, lat, degree |
+| Code | `build_model_dataset_info0.do` | 121 | school, loc, district, name, lon, city, degree |
+| Code | `build_model_dataset_info1.do` | 121 | school, loc, district, name, lon, city, degree |
+| Code | `build_model_dataset_info2.do` | 121 | school, loc, district, name, lon, city, degree |
+| Code | `build_model_dataset_info3.do` | 121 | school, loc, district, name, lon, city, degree |
+| Code | `build_model_dataset_pre2011.do` | 117 | school, district, loc, lat, name, lon, city, degree |
+| Code | `build_simulation_lndist.do` | 6 | lat, district |
+| Code | `build_teachers_offer_set.do` | 16 | school, district, loc |
+| Code | `build_wageschedule_exitentry.do` | 7 | district, name |
+| Code | `c1c2_variation_studentlevel.do` | 27 | school, name, district, loc |
+| Code | `cutoff_prefs_id_example_graph.R` | 9 | lat, loc, location, name, district |
+| Code | `data_patterns.do` | 26 | school, district, loc, lat |
+| Code | `gen_omegas.do` | 35 | school, district, loc |
+| Code | `gen_omegas_3omegas.do` | 39 | school, district, loc, name |
+| Code | `gen_omegas_exp1cutoff.do` | 41 | school, district, loc, name |
+| Code | `gen_omegas_info.do` | 46 | school, district, loc, name |
+| Code | `gen_omegas_tenured.do` | 41 | school, district, loc, name |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 12 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 12 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 33 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `global_variables.f90` | 11 | district, loc, degree, city, lat |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 218 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 90 | district, loc, son, lat, lon, city |
+| Code | `inner_loop_one.f90` | 92 | district, loc, son, lat, lon, city |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `knapsack_problem.f90` | 16 | district, school, loc, city, lon, lat |
+| Code | `lambda_map.do` | 14 | school, district, lon |
+| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 38 | loc, district, city, lat |
+| Code | `main.f90` | 116 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 115 | loc, district, location, city, lat, second, lon, name |
+| Code | `main.f90` | 17 | loc, district, city, lat |
+| Code | `main.f90` | 74 | loc, district, city, lat, block |
+| Code | `make_simulated_data.do` | 6 | lat, loc |
+| Code | `master.do` | 22 | school, loc, lat, lon, district |
+| Code | `master.do` | 22 | school, loc, lat, lon, district |
+| Code | `master_synth.do` | 31 | school, loc, lat, lon, district |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `nrutil.f90` | 69 | loc, lon |
+| Code | `objective.f90` | 10 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 10 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 10 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 9 | lat, district |
+| Code | `objective.f90` | 27 | lat, loc, district |
+| Code | `oldteacher_roster_build.do` | 155 | school, birth, first_name, last_name, name, sex, gender, district, son |
+| Code | `omega_analysis.do` | 10 | school, district, city, degree, name, loc |
+| Code | `omega_databuild.do` | 110 | district, census, loc, name, school, lon, city, lat |
+| Code | `produce_exhibits.do` | 13 | school, loc, lat, district |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `random.f90` | 3 | lat, loc |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 199 | loc, lat, son, city, name, district, second, lon |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `read_data_params.f90` | 53 | loc, son, lat, city, name, district, second |
+| Code | `rothstein_test.do` | 33 | school, district, loc, lon, name |
+| Code | `run_all_local.sh` | 6 | loc, lat, lon, name |
+| Code | `salary_variation.do` | 4 | school, district |
+| Code | `schedule_new.do` | 123 | school, district, loc, lon, second |
+| Code | `schedule_summary.do` | 3 | school, district, lon |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_equilibrium_w.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `simplex_salvador_inner.f90` | 7 | loc |
+| Code | `staff_build.do` | 212 | school, name, gender, birth, loc, lname, zip, degree, location, district, son |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `statistical_models.f90` | 1 | lat |
+| Code | `summary.do` | 76 | school, district, degree, lon, loc, name, city |
+| Code | `summary_simulation.do` | 36 | school, lat, district, degree, name, lon, loc, city |
+| Code | `teachers_build.do` | 131 | school, lon, name, district, gender, city, birth, loc, lname, lat |
+| Code | `teachers_panel.do` | 59 | school, birth, lname, name, district, loc, address, lat |
+| Code | `teachers_with_allva.do` | 12 | school, name, district, birth |
+| Code | `testscores_build.do` | 35 | school, name, gender, city, district |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `timer.f90` | 9 | loc |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 5 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `utility_functions.f90` | 3 | district, school, lon |
+| Code | `va_teacherside_build.do` | 10 | school, district, lon |
+| Code | `valueadded_calculation.do` | 13 | school, lat, district, loc, lon |
+| Code | `valueadded_calculation_classmodel.do` | 20 | school, lat, district, loc, lon, name |
+| Code | `valueadded_calculation_stockstaiger_nocomparativeadv.do` | 12 | school, lat, district, loc, lon |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
+| Code | `write_moments.f90` | 83 | lat, district, city, son |
 
 ### Code Files
 

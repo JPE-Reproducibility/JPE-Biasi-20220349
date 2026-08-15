@@ -1,17 +1,14 @@
-cloc|github.com/AlDanial/cloc v 2.02  T=1.79 s (289.7 files/s, 167175.6 lines/s)
+cloc|github.com/AlDanial/cloc v 2.06  T=0.29 s (512.1 files/s, 227862.7 lines/s)
 --- | ---
 
 Language|files|blank|comment|code
 :-------|-------:|-------:|-------:|-------:
-Text|341|620|0|211566
 Fortran 90|50|5461|11062|24056
-CSV|26|5|0|18768
 Stata|79|2756|121|15730
 TeX|16|542|61|5285
-XML|1|0|0|1223
 Markdown|2|230|0|1095
 Bourne Shell|1|20|4|161
 R|1|21|24|82
 make|1|4|5|24
 --------|--------|--------|--------|--------
-SUM:|518|9659|11277|277990
+SUM:|150|9034|11277|46433
