@@ -1,0 +1,28 @@
+10             Purpose       : see note
+1             teacher/offer decision: see note
+1             wage decision : see note
+0            skip first inner loop: 0 - don't skip.  1 - skip. (Skipping first inner loop ensures obj value will be the same as where we left of iteration.)
+1             Report weight factors : 0 - no reporting, 1 - write to moment_weight_factors.txt
+0.25          simplex_length: Initial simplex length
+2             maxiter       : Maximum iterations for outer loop and equilibrium convergence
+0.005         outer_tol_pct : tolerance, outer loop parameters pct diff, best & worst simplex point
+0.005         outer_tol_dif : tolerance, outer loop parameters diff, best & worst simplex point
+2             h_maxiter     : max iterations, belief nelder mead
+0.1           h_tol_pct     : tolerance, belief parameters, pct dif
+0.1           h_tol_dif     : tolerance, belief parameters, diff
+0             rcost_experiment      : cf exercise of zero rcost
+0             nomovecost_experiment : cf exercise of no moving costs
+5             NcopyT        : No. of copies of teachers for estimation
+3             NcopyD        : No. of copies of districts for estimation
+2            Neconomy      : No. of economies to simulate in equilibrium/cf
+1             starting_economy : option to skip some of the economies if doing the equilibrium code (purpose 10+)
+0.0 0.0       s_vec : subsidy 'gradient' across student types (c1/c2)
+6             T : number of periods of forward iteration. Set to 1 if don't want forward iter.
+5             max_period_initbelifes: read in econ-by-econ beliefs up to this period
+1             entry : If this equals zero, then no entry is allowed (t_entry set to 0 in main.f90)
+1             exit  : If this equals zero, then no exit is allowed  (t_exit  set to 0 in main.f90)
+1             wage_elas : assumption about the wage elasticity. we are trying 0.5, 1.0, and 1.8
+2             ncopy_entr : how many copies to have in our entrant population pool, only valid if flag_read_entry = 0 
+
+-------------------------------------------------------------------------------------
+See replication readme file for detailed description of instruction options

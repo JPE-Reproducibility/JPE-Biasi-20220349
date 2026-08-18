@@ -9,7 +9,7 @@ clear all
 * Define some extra local paths for where to find results
 *-------------------------------------------------------------------------------
 
-local baseline_dir "$fortran_code/4_nomovecost/case_baseline/result"
+local baseline_dir "$fortran_code/1_baseline/result"
 local case1_dir "$fortran_code/4_nomovecost/case1/result"
 local case2_dir "$fortran_code/4_nomovecost/case2/result"
 local case2_new2_dir "$fortran_code/4_nomovecost/case2_new2/result"

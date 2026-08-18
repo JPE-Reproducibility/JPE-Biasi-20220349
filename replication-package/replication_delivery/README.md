@@ -4,7 +4,7 @@ editor_options:
     wrap: 72
 ---
 
-# README for "Equilibrium in the Market for Public School Teachers: District Wage Strategies and Teacher Comparative Advantage"
+# Data and Code for: Equilibrium in the Market for Public School Teachers: District Wage Strategies and Teacher Comparative Advantage
 
 Barbara Biasi, Chao Fu, and John Stromme
 
@@ -32,7 +32,7 @@ these synthetic data verify the code path and file dependencies but
 Public replicators should run
 `code/master_synth.do`.
 It reads the synthetic raw inputs from
-`synthetic_data/`,
+`synthetic_data/` and the public proficiency input from `data/public/`,
 constructs intermediate/model/simulation files locally, and writes
 synthetic-run exhibits to
 `out_synth/`.
@@ -76,6 +76,11 @@ public replication in place of the confidential WDPI files.
 contains shareable auxiliary inputs that are either constructed by the
 authors or publicly available. These files are included in the public
 replication archive subject to the applicable source terms and agreements.
+`data/public/`
+contains an unmodified public ED Data Express district-level mathematics
+assessment file, its provider README, and its provider data notes. These files
+support the calculation of the district proficiency ranges discussed in the
+paper.
 `synthetic_data/raw/`
 contains the fictitious WDPI-style inputs distributed for the public
 replication.
@@ -86,7 +91,8 @@ replication.
 |-----------------|-----------------|----------------:|-----------------------|
 | WDPI staff, roster, and student test-score files                                            | File names listed below                                                                                                                                                                                                                     |                 No | Confidential/restricted data covering 2006--2016. First accessed in November 2017; no formal version or release number was provided. Access is free but requires IRB approval, a signed DUA, and WDPI approval, which may take several months.                                                                                                                                                         |
 | Auxiliary district crosswalks, distance files, shapefiles, elections, and NCES/ACS extracts | `real_data/`                                                                                                                                                                    |                Yes | Shareable files constructed by the authors or publicly available.                                                                                                                                                                                                                                                                                                                                    |
-| Synthetic public replication data                                                           | `synthetic_data/raw/`                                                                                                                                                           |                Yes | Fixed fictitious WDPI-style raw files distributed with the public package. Together with the included auxiliary inputs in `real_data/`, these are sufficient to run `code/master_synth.do`. The simulation script is also included at `synthetic_data/code/make_simulated_data.do` so public replicators can inspect or regenerate the fictitious inputs if needed. |
+| District mathematics proficiency data                                                       | `data/public/proficiency_data/SY2021_FS175_DG583_LEA_data_files/`                                                                                                                |                Yes | Unmodified public 2020--2021 LEA-level mathematics assessment data from the U.S. Department of Education's ED Data Express Data Library (File Specification 175, Data Group 583), plus the provider README and data notes. Used by `code/descriptives/intext_numbers.do`.                                                                                                                               |
+| Synthetic public replication data                                                           | `synthetic_data/raw/`                                                                                                                                                           |                Yes | Fixed fictitious WDPI-style raw files distributed with the public package. Together with the included auxiliary inputs in `real_data/` and public proficiency input in `data/public/`, these are sufficient to run `code/master_synth.do`. The simulation script is also included at `synthetic_data/code/make_simulated_data.do` so public replicators can inspect or regenerate the fictitious inputs if needed. |
 | Generated intermediate/model/simulation data                                                | `intermediate_data/`, `model_data/`, `simulation_data/` |                 No | Created locally when `code/master_synth.do` runs. They should not be treated as source data.                                                                                                                                                                                                                                             |
 | Expected simulated-run outputs                                                              | `out_synth/`                                                                                                                                                                    |                Yes | Tables and figures generated from the simulated inputs. This is the package's output-simulated folder.                                                                                                                                                                                                                                                                                               |
 | Actual restricted-data outputs                                                              | `out/`                                                                                                                                                                          |                 No | Reserved for outputs from the confidential-data workflow. Public replicators will not generate this folder from the public simulated data.                                                                                                                                                                                                                                                              |
@@ -94,9 +100,16 @@ replication.
 ### Preservation and Licensing
 
 The final public replication package will be preserved in the JPE/Harvard
-Dataverse. The confidential WDPI data cannot be deposited there and cannot be
-retained indefinitely: the governing Data User Agreement requires their
-destruction after the project is completed.
+Dataverse. The authors' local copies of the confidential WDPI data will be
+destroyed when required by the governing Data User Agreement. The underlying
+administrative records remain in the custody of WDPI, which will continue to
+accept applications from qualified researchers for restricted access for at
+least five years following publication. During that period, the authors will
+preserve the replication code, synthetic data, codebook, provenance
+documentation, and access instructions. The authors will also provide
+reasonable assistance in response to requests for clarification and
+replication, including assistance to approved researchers seeking to obtain a
+substantially similar extract and run the analysis code.
 
 The authors' code in
 `code/`
@@ -105,7 +118,8 @@ and
 is released under the MIT License. The authors' original synthetic data and
 documentation are released under the Creative Commons Attribution 4.0
 International License (CC BY 4.0). Third-party auxiliary inputs are not
-relicensed and remain subject to their original source terms. See
+relicensed, including files under `real_data/` and `data/public/`, and remain
+subject to their original source terms. See
 `LICENSE`
 for details.
 
@@ -115,7 +129,10 @@ The following list contains all the raw files used in the analysis. WDPI staff, 
 files are confidential and not provided. Files under
 `real_data/`
 are shareable auxiliary inputs constructed by the authors or publicly
-available.
+available. Files under
+`data/public/`
+are unmodified public source files distributed with their provider
+documentation.
 
 | Raw input | Source/provenance from local evidence |
 |------------------------|------------------|
@@ -124,6 +141,9 @@ available.
 | `15staff.csv`, `16staff.csv` | Confidential WDPI staff files. |
 | `student_demographics.csv` | Confidential WDPI student demographics. |
 | `testscores.csv` | Confidential WDPI student test scores. |
+| `data/public/proficiency_data/SY2021_FS175_DG583_LEA_data_files/SY2021_FS175_DG583_LEA.csv` | U.S. Department of Education, ED Data Express, 2020--2021 *Performance on Statewide Mathematics Assessment*, LEA level, File Specification 175, Data Group 583, as of May 25, 2022. The file is an unmodified provider download with 1,394,390 data records. |
+| `data/public/proficiency_data/SY2021_FS175_DG583_LEA_data_files/SY2021_FS175_DG583_LEA_README.txt` | Provider README supplied with the ED Data Express download. |
+| `data/public/proficiency_data/SY2021_FS175_DG583_LEA_data_files/SY2021_FS175_DG583_LEA_data_notes.csv` | Provider data notes supplied with the ED Data Express download, including the provider's caution about 2020--2021 assessment participation during the COVID-19 pandemic. |
 | `real_data/cesa.dta` | CESA-district crosswalk manually created by authors using [WDPI CESA information](https://dpi.wi.gov/about-dpi/cesa). |
 | `real_data/wisconsin_elections.xlsx` | Daily Kos Elections statewide election results and county-congressional-district crosswalk, accessed in 2022; see `real_data/readme_elections.rtf` and the formal citations below. |
 | `real_data/crosswalk_district_county.dta` | District-county crosswalk prepared by authors using the Opportunity Insights county-commuting-zone-state crosswalk documented below. |
@@ -137,6 +157,166 @@ available.
 | `real_data/district_shapefiles/WI_School_Districts.*` | WDPI *School Districts, Wisconsin*, edition 8.0, revised June 26, 2024 and valid for the 2024--2025 school year, plus converted Stata files. Downloaded in 2025 from the [WDPI GIS Maps](https://dpi.wi.gov/wisedash/public/gis-maps) page. |
 | `real_data/cz_id.csv` | District-commuting-zone crosswalk prepared by authors using the Opportunity Insights county-commuting-zone-state crosswalk documented below. |
 | `real_data/district_id_tag.dta` and `real_data/district_id_tag_validation.dta` | Data-district-id to model-district-id crosswalks prepared by authors. |
+
+### Public District Proficiency Data Codebook
+
+The ED Data Express file is an LEA-level extract of 2020--2021 statewide
+mathematics assessment performance. A row identifies a reported result for an
+LEA, student population or subgroup, and grade. The in-text-number script uses
+the rows for `All Students in LEA`, `Grade 5`, and the states California,
+Texas, and Wisconsin. The provider reports some percentages exactly and
+others as disclosure ranges or one-sided bounds. The script therefore parses
+the reported `Value` strings rather than treating every row as an exact point
+estimate. For every qualifying numeric report, it extracts the first numeric
+endpoint and, for an interval, the second numeric endpoint; an exact or
+one-sided report uses its stated numeric value as both endpoints. It then
+takes the smallest lower and largest upper endpoint by state. The resulting
+ranges are 5--94% in Wisconsin, 5--89% in California, and 6--90% in Texas.
+
+| Raw variable | Description |
+|--------------|-------------|
+| `School Year` | School year covered by the record; this extract reports 2020--2021. |
+| `State` | State name. |
+| `NCES LEA ID` | Seven-digit NCES local education agency identifier. |
+| `LEA` | Local education agency name. |
+| `School` | School name when applicable; blank in this LEA-level extract. |
+| `NCES SCH ID` | NCES school identifier when applicable; blank in this LEA-level extract. |
+| `Data Group` | EDFacts data-group identifier; `583` denotes the assessment-performance group used here. |
+| `Data Description` | Provider description of the reported measure. |
+| `Value` | Reported percentage or provider code. Numeric percentages can be exact (for example, `42%`), interval-censored (for example, `40-44%`), or one-sided (for example, `<=10%` or `>=90%`); suppression and missing-value codes can also occur. |
+| `Numerator` | Numerator when released by the provider; not populated for the proficiency-percentage records used here. |
+| `Denominator` | Number of students underlying the reported percentage. |
+| `Population` | Population represented by the record; `All Students` for the rows used here. |
+| `Subgroup` | Reporting subgroup; the calculation keeps `All Students in LEA`. |
+| `Characteristics` | Additional subgroup characteristic when applicable. |
+| `Age/Grade` | Student age or grade; the calculation keeps `Grade 5`. |
+| `Academic Subject` | Assessed subject; `Mathematics` in this extract. |
+| `Outcome` | Reported outcome; `Percent Proficient` in this extract. |
+| `Program Type` | Program classification when applicable. |
+
+The provider notes that 2020--2021 assessment participation varied because of
+the COVID-19 pandemic; results may not be representative and should not be
+assumed comparable with other years. See
+`SY2021_FS175_DG583_LEA_data_notes.csv`
+for the full provider note.
+
+### Restricted WDPI Data Codebook
+
+The confidential WDPI inputs are not distributed, but the following codebook
+documents the variables obtained from WDPI and expected by the build code. It
+is intended to let an approved researcher determine whether a newly obtained
+extract is substantially similar. Variable names shown in parentheses are the
+canonical lower-case names used by the Stata build after import. Blank fields,
+provider missing-value codes, and `NA` should be treated as missing unless a
+more specific rule is stated below.
+
+#### Annual staff files
+
+The unit of observation in `06staff.txt` through `14staff.txt` and
+`15staff.csv` through `16staff.csv` is a staff member--district--school--
+position--assignment--year record. A staff member can therefore have multiple
+records in a year. The legacy files are fixed-width; their column positions
+are specified in `code/build/staff_build.do`. The 2015--2016 files use the raw
+CSV headers shown below. The file year supplies the analysis year.
+
+| Raw/canonical variable | Description and coding expected by the build |
+|------------------------|------------------------------------------------|
+| `IDNbr` (`id`) | Provider staff identifier. Numeric in the annual files; used with names and demographics to construct longitudinal links. |
+| `LastName`, `FirstName` (`lastname`, `firstname`) | Staff surname and given name used only for record linkage and name reconciliation. String; confidential direct identifiers. |
+| `FileNumber` (`filenumber`) | Longitudinal staff file number, available in the later files and recovered from the linked-staffing file when necessary. String or numeric identifier; leading zeros may occur. |
+| `Gndr` (`gender`) | Provider gender code. The analysis recognizes `F` and `M`; blank or `NA` is missing. |
+| `RaceEthn` (`race`) | Provider race/ethnicity code. The analysis uses `B` for Black, `H` for Hispanic, and `A` for Asian; other valid provider codes are retained until the analysis-specific indicators are created. |
+| `BirthYear` (`birth`) | Four-digit year of birth used for linkage and experience-consistency checks. |
+| `HighDegree` (`highedu`) | Highest-degree code. Codes used by the analysis are `4` bachelor's, `5` master's, `6` specialist, and `7` doctorate. |
+| `YearSession` | Calendar/session year in the CSV files. The build assigns `year` from the annual filename so that all annual formats are handled consistently. |
+| `CntrctDays` (`dayscontract`) | Number of contract days for the staff assignment. Records with zero or missing contract days are excluded. |
+| `LocalExp` (`localexp`) | Provider-reported years of experience in the local agency. Numeric, with missing values allowed. |
+| `TotalExp` (`totalexp`) | Provider-reported total years of experience. Numeric, with missing values allowed. |
+| `TotSalary` (`salary`) | Total annual salary associated with the record, in nominal dollars as supplied. Zero and missing values are excluded. |
+| `TotFringe` (`fringe`) | Total fringe benefits associated with the record, in nominal dollars as supplied. |
+| `StaffCat` (`staffcat`) | Provider staff-category code. |
+| `HireAgncyCd`, `WorkAgncyCd` (`hireagencycode`, `workagencycode`) | Official codes for the hiring and work agencies. The work-agency code becomes the analysis district identifier. |
+| `HireAgncyTyp`, `WorkAgncyTyp` (`hireagencytype`, `workagencytype`) | Provider hiring- and work-agency-type codes. The teacher build retains district- and school-employee types `3` and `4`. |
+| `SchoolCd` (`schoolcode`) | Official school code within the work agency. Numeric after import; missing school codes are excluded from the teacher panel. |
+| `PositionCd` (`position`) | Provider position code. Codes used to define the teacher sample are `53` for teacher and `43` for short-term substitute teacher. |
+| `AssgnAreaCd` (`area`) | Provider assignment-area/subject code. The build uses these codes to create mathematics, English, reading, art, science, Title I, elementary, and cross-categorical assignment indicators. |
+| `LowGrd`, `HighGrd` (`lowgrade`, `highgrade`) | Lowest and highest grade served, stored as provider text codes. |
+| `LGSortCd`, `HGSortCd` (`lowgradecode`, `highgradecode`) | Numeric sort codes corresponding to the lowest and highest grades served. |
+| `Bilingual` (`bilingual`) | Provider bilingual-assignment indicator, normally `Y`/`N` or blank. |
+| `AssgnFTE` (`fte`) | Assignment full-time-equivalent percentage; `100` represents one full-time assignment. Zero and missing FTE records are excluded. |
+| `WorkLocationName` (`workagencyname`) | Name of the work agency or district. String. |
+| `SchoolName` (`schoolname`) | School name. String. |
+| `GrdLevel` (`gradelevel`) | Provider school/assignment grade-level code. |
+| `CESANumber` (`cesa`) | Cooperative Educational Service Agency code. String or numeric provider code. |
+| `CntyNbr` (`county`) | Provider county code. |
+| `CntyName` | Provider county name. Present in the CSV files but not retained by the analysis build. |
+| `SchoolMailingAddress1`, `SchoolMailingAddress2`, `SchoolShippingAddress1`, `SchoolShippingAddress2`, `MailCity`, `MailSt`, `ShipCity`, `ShipSt`, `ShipZipCd` | Work-location mailing and shipping address components. Present in the CSV files but not retained by the analysis build. |
+| `MailZipCd` (`zipcode`) | Work-location mailing ZIP code. String so leading zeros are preserved. |
+| `Phone`, `AdminName`, `FormerLastNm` | Work-location phone, administrator name, and former staff surname. Present in the CSV files but not retained by the analysis build. |
+| `LTSub` (`lt_substitute`) | Long-term-substitute indicator; `Y` denotes a long-term substitute. |
+| `SubCntrctd` (`subcontracted`) | Subcontracted-employee indicator; records coded `Y` are excluded from the teacher panel. |
+
+The address, telephone, administrator, county-name, and former-name variables
+are documented for completeness but are not retained by `staff_build.do` and
+are not required in a substantially similar analysis extract.
+
+#### Linked staffing file
+
+`Linked_Staffing_Data_10202015.csv` is a staff-year/worksite linkage file used
+to recover longitudinal file numbers before the annual staff files are
+combined.
+
+| Raw variable | Description and coding expected by the build |
+|--------------|------------------------------------------------|
+| `last_name`, `first_name` | Staff surname and given name used for linkage. String; confidential direct identifiers. |
+| `file_num` | Longitudinal staff file number. Converted to numeric when possible; zero, `NA`, and nonnumeric values are treated as missing. |
+| `year` | Four-digit calendar/session year. The build retains 2006 and later. |
+| `race` | Provider race/ethnicity code; `NA` is treated as missing. |
+| `birth_year` | Four-digit year of birth used for linkage. |
+| `sex` | Provider sex/gender code. The build recognizes `F` and `M`. |
+| `distidworksite` | Official district/worksite identifier, converted to numeric when possible. |
+
+#### Student-demographic file
+
+The unit of observation in `student_demographics.csv` is a student-school
+year. The expected key is `STUDENT_KEY` and `SCHOOL_YEAR`.
+
+| Raw variable | Description and coding expected by the build |
+|--------------|------------------------------------------------|
+| `SCHOOL_YEAR` | School-year string in `YYYY-YYYY` form. The first year is used as the initial analysis year. |
+| `DIST_ACCTBL_CODE` | Official accountable-district code. |
+| `SCH_ACCTBL_CODE` | Official accountable-school code. |
+| `STUDENT_KEY` | De-identified longitudinal student identifier shared with the test-score file. |
+| `GRADE` | Provider grade code. The test-score analysis uses grades 3--8. |
+| `GENDER` | Provider gender code. `F` creates the female indicator; blank is missing. |
+| `RACE_ETHNICITY` | Provider race/ethnicity label. Labels used by the analysis include `Black`, `Hispanic`, `Asian`, and `Amer Indian`; other provider categories may be present. |
+| `DISAB_STATUS` | Disability-status indicator or provider status code; numeric/blank values are retained and carried across student years when missing. |
+| `EL_STATUS` | English-learner-status indicator or provider status code; numeric/blank values are retained and carried across student years when missing. |
+| `ECON_DISADVANTAGE` | Economic-disadvantage indicator or provider status code; numeric/blank values are retained and carried across student years when missing. |
+
+#### Student test-score file
+
+The unit of observation in `testscores.csv` is a student--subject--school-year
+test record. The expected key is `STUDENT_KEY`, `SCHOOL_YEAR`, and
+`TEST_SUBJECT`, allowing one record per tested subject in a student-year.
+
+| Raw variable | Description and coding expected by the build |
+|--------------|------------------------------------------------|
+| `SCHOOL_YEAR` | School-year string in `YYYY-YYYY` form. The build uses both the first and second year to align fall and spring tests. |
+| `DIST_ACCTBL_CODE` | Official accountable-district code; renamed `district_code`. |
+| `SCH_ACCTBL_CODE` | Official accountable-school code. The build extracts the numeric school code from this string. |
+| `STUDENT_KEY` | De-identified longitudinal student identifier shared with the demographic file. |
+| `GRADE` | Tested grade. The analysis retains grades 3--8 and excludes grade 10. |
+| `TEST_NAME` | Provider assessment/program name. String. |
+| `TEST_SUBJECT` | Tested subject. The build expects `Reading`/`Mathematics` in earlier school years and `ELA`/`Mathematics` in later school years, according to the year alignment implemented in `testscores_build.do`. |
+| `TEST_SCALED_SCORE` | Numeric provider scaled score. The build standardizes this within grade, year, and subject. |
+| `TEST_STDERR` | Numeric standard error supplied with the test score. It is imported but not used in the final standardized-score panel. |
+| `TEST_PROF_LVL` | Provider proficiency-level label, such as basic, proficient, or advanced categories. It is imported but not used in the final standardized-score panel. |
+
+The public `synthetic_data/raw/staff/temp.dta` and
+`synthetic_data/raw/testscores_indlev/dem.dta` files are validation/support
+copies, not additional confidential source datasets. The production build
+constructs its working demographic file from `student_demographics.csv`.
 
 ## Synthetic Public Data
 
@@ -197,9 +377,13 @@ The main folders and files in the replication folder are:
 | `code/build/`                                | Stata scripts that construct roster, staff, teacher panel, test-score, value-added, wage-schedule, model-estimation, and simulation input files.                                                                    |
 | `code/descriptives/`                         | Stata scripts for descriptive tables, figures, appendix robustness tables, and map/figure construction.                                                                                                             |
 | `code/auxiliary_regressions/`                | Stata scripts for auxiliary teacher-choice and wage regressions and robustness variants.                                                                                                                            |
-| `code/fortran_model/`                        | Fortran code to run the model and all counterfactual and other modeling analyses                                                                                                                                    |
-| `code/fortran_model/run_all_local.sh`        | Portable compiler/runner for all 31 Fortran scenarios on macOS and Unix-like systems. It compiles only unless the replicator explicitly supplies `--run`.                                                           |
+| `code/fortran_model/`                        | Fortran code to run the model and all counterfactual and other modeling analyses.                                                                                                                                   |
+| `code/fortran_model/common_f90s/`            | Shared Fortran modules, stored once; the `entry/` branch is used by entry/forward scenarios and `non_entry/` by all other scenarios.                                                                                |
+| `code/fortran_model/run_all_local.sh`        | Portable compiler/runner for all 30 Fortran scenarios on macOS and Unix-like systems. It compiles only unless the replicator explicitly supplies `--run`.                                                           |
+| `code/fortran_model/example_slurm_batchfile` | Common Slurm submission script used for the submitted scenario runs; its site-specific settings must be adapted before use on another cluster.                                                                      |
+| `original_fortran_instruction_files/`        | Archived full-run `instruction.txt` files for all 30 Fortran scenarios, with paths matching the active scenario directories.                                                                                        |
 | `code/Figure_B9/`                            | Figure B9 Stata code and R simulation helper for the identification illustration.                                                                                                                                   |
+| `data/public/`                               | Unmodified third-party public source data used to calculate in-text statistics, with provider documentation.                                                                                                      |
 | `intermediate_data/`                         | Working intermediate Stata datasets. Current files may be derived from restricted inputs.                                                                                                                           |
 | `model_data/`                                | Model-estimation inputs and CSV exports generated by `build_model_dataset.do` and related scripts. Current files may be derived from restricted inputs. |
 | `simulation_data/`                           | Pre-Act 10 simulation input files generated by `build_model_dataset_pre2011.do`. Current files may be derived from restricted inputs.                   |
@@ -217,10 +401,10 @@ The main folders and files in the replication folder are:
 | Software        | Requirement/evidence                                                                                                                                                                                                                 |
 |-------------------|-----------------------------------------------------|
 | Stata 19        | Stata/SE or Stata/MP can run the public synthetic workflow. The confidential driver requests a larger variable ceiling and therefore requires Stata/MP. The public workflow was tested with StataNow/MP 19.5 for Apple Silicon, 21 May 2025 revision. `code/master.do` and `code/master_synth.do` verify or install the required SSC packages before running. An Internet connection is needed on the first run unless they are already installed. |
-| Stata packages  | The tested SSC versions are `estout` 3.33, `esttab` 2.1.4, `ftools` 2.50.0, `reghdfe` 6.13.1, `coefplot` 1.8.8, `binscatter` 7.02, `carryforward` 4.5, `spmap` 1.3.2, and `sepscatter` 1.1.0. The drivers install current SSC releases rather than enforcing these exact versions. |
+| Stata packages  | The tested SSC versions are `estout` 3.33, `esttab` 2.1.4, `ftools` 2.50.0, `reghdfe` 6.13.1, `coefplot` 1.8.8, `binscatter` 7.02, `carryforward` 4.5, `spmap` 1.3.2, `sepscatter` 1.1.0, `blindschemes` 1.3.0, and `require` 1.3.1. `blindschemes` provides the `plotplain` graph scheme, while `require` is used by `reghdfe` to manage dependencies. The drivers install current SSC releases rather than enforcing these exact versions. |
 | R               | Required only for `code/Figure_B9/cutoff_prefs_id_example_graph.R`. The analysis used R 4.2.3. The helper was also tested with R 4.5.1, `haven` 2.5.5, `extRemes` 2.2.1, and `MASS` 7.3-65. It creates the configured user library when needed and installs missing packages from CRAN. |
 | Fortran and MPI | The model was originally run with GNU Fortran (GCC) 11.5.0 20240719 (Red Hat 11.5.0-14) and `mpiexec` (OpenRTE) 4.1.1. The distributed code was also compiled successfully on Apple Silicon with GNU Fortran 16.1.0 and Open MPI 5.0.9. |
-| BLAS/LAPACK     | BLAS and LAPACK are required by the Fortran model. The portable runner uses Apple's Accelerate framework on macOS and `-lblas -llapack` on other Unix-like systems. `FORTRAN_LINK_FLAGS` can override this choice. |
+| BLAS/LAPACK     | BLAS and LAPACK are required by the Fortran model. The portable runner links Homebrew OpenBLAS on macOS and `-lblas -llapack` on other Unix-like systems. `FORTRAN_LINK_FLAGS` can override this choice. |
 | Shell/OS        | Command-line examples use a Unix-like shell. The portable Fortran runner requires Bash. Start Stata in the repository root as instructed below. The Stata drivers locate the replication root from Stata's current working directory; no machine-specific path edits are required. |
 
 ### Tested Hardware, Runtime, and Storage
@@ -233,7 +417,7 @@ In two clean validation runs on this machine, optional synthetic-input
 regeneration took approximately 1 hour 31 minutes to 1 hour 43 minutes, and
 `code/master_synth.do` took approximately 2 hours 43 minutes to 2 hours 53
 minutes. The Figure B9 R helper took less than three seconds. The complete
-31-scenario Fortran stage took approximately 12 hours 29 minutes with eight
+30-scenario Fortran stage took approximately 12 hours 29 minutes with eight
 MPI ranks, and the final exhibit step took less than five seconds.
 
 Using the included synthetic raw inputs, the required Stata, R, Fortran, and
@@ -244,8 +428,10 @@ full-day run; hardware and MPI configuration can materially affect runtime.
 
 The complete working tree occupied approximately 3.8 GB after the Stata
 workflow generated its intermediate and model data. Replicators should allow
-at least 5 GB of free disk space. More space may be needed for Fortran logs,
-platform-specific build files, or additional validation copies.
+for an additional approximately 269 MB for the uncompressed public ED Data
+Express proficiency file and should allow at least 5 GB of free disk space.
+More space may be needed for Fortran logs, platform-specific build files, or
+additional validation copies.
 
 ### Controlled Randomness
 
@@ -311,10 +497,17 @@ restricted-data workflow.
 6.  Generate pre-Act 10 simulation inputs:
     `build_model_dataset_pre2011.do`,
     `build_simulation_lndist.do`.
-7.  Generate the main-paper and appendix exhibits that do not require
+7.  Generate the in-text calculations:
+    `descriptives/intext_numbers.do`, which writes
+    `out_synth/tables/Intext_numbers.log` in the public workflow and
+    `out/tables/Intext_numbers.log` in the confidential workflow. The program
+    contains only calculations for numerical statements derived from package
+    data. Contextual facts supported by external citations and author-chosen
+    specification values are not included in the program or log.
+8.  Generate the main-paper and appendix exhibits that do not require
     completed Fortran model results or the Figure B9 R helper.
 
-Subsequently, run the Figure B9 R helper and the 31 Fortran model folders.
+Subsequently, run the Figure B9 R helper and the 30 Fortran model scenarios.
 
 Lastly, `code/produce_exhibits.do` produces Figure 4, Figure B9, and the
 remaining generated exhibits; Table B6 is the manual exception documented in
@@ -335,6 +528,7 @@ mkdir -p intermediate_data model_data simulation_data \
 The public archive should contain
 `synthetic_data/raw/`,
 `real_data/`,
+`data/public/`,
 and `code/`.
 The synthetic raw data are already included; the generator is included
 only so the Data Editor can inspect or regenerate them if needed.
@@ -422,6 +616,13 @@ The synthetic run writes tables to
 `out_synth/tables/`
 and figures to
 `out_synth/figures/`.
+Immediately before the first exhibit script, the master runs
+`code/descriptives/intext_numbers.do` and writes
+`out_synth/tables/Intext_numbers.log`. The concise results-only log reports
+only the calculated values corresponding to statements in the paper and
+Online Appendix. Its first line calculates the district proficiency ranges
+from the included ED Data Express file. Citation-only contextual facts and
+author-chosen specification values are omitted.
 It also regenerates local working files in
 `intermediate_data/`,
 `model_data/`,
@@ -446,18 +647,16 @@ Rscript code/Figure_B9/cutoff_prefs_id_example_graph.R
 
 ### 6. Run Fortran Model Code
 
-All of the code for the model estimation and results are located in the
-`code/fortran_model/`
-subdirectory.
-
-Inside
-`code/fortran_model/`
-are a number of subfolders. Each subfolder contains the Fortran code to
-run one particular replication result; each result is subsequently saved
-to its own nested result subfolder.
+All model-estimation and counterfactual code is under
+`code/fortran_model/`. Shared modules are stored once in
+`code/fortran_model/common_f90s/`. The runner compiles the `entry/` branch for
+the `5_exitentry` and `6_forward` scenarios and the `non_entry/` branch for
+all other scenarios. Each scenario directory retains its driver, makefile,
+configuration, belief inputs, and expected results so that the directory maps
+directly to one model exercise and can be run independently.
 
 The portable runner first verifies that `mpifort` is installed and then
-compiles all 31 scenarios. Compilation is the default so that invoking the
+compiles all 30 scenarios. Compilation is the default so that invoking the
 script cannot accidentally begin the potentially long calculations:
 
 ```
@@ -468,7 +667,7 @@ On macOS with Homebrew, the required compiler and MPI tools can be installed
 with:
 
 ```
-brew install gcc open-mpi
+brew install gcc open-mpi openblas
 ```
 
 On Debian/Ubuntu, the corresponding system packages are commonly installed
@@ -504,46 +703,129 @@ by the relative input paths in the model code. Standard output and error are
 written to the scenario's `result/run_main.log`; numerical result text files
 remain in the same `result/` directory.
 
-Each scenario also retains its original makefile, written as a
-Slurm-cluster template. Its compile target requires `mpifort` plus BLAS and
-LAPACK:
+Each scenario also retains its original makefile, written for a Slurm
+cluster. Its compile target requires `mpifort` plus BLAS and LAPACK:
 
 ```
 make compile_mpi_slurm
 ```
 
-The Slurm run target calls `sbatch run_main.batch`, but that site-specific
-batch file is not distributed. Use the portable runner above for a local
-replication or supply an appropriate batch file for a cluster. The original
-makefile also contains a Linux-specific library path and compiler flag; these
-are intentionally bypassed by the portable runner.
+The common Slurm script actually used for the submitted scenario runs is
+included at `code/fortran_model/example_slurm_batchfile`. It was reused across
+the scenarios, requested 128 MPI tasks and 200 GB of memory on partition `fu`,
+wrote the job log to `result/run_main.log`, set site-specific UCX/OpenMPI
+transport options, and launched `mpiexec run_main`. It did not specify a wall
+time. Another cluster user must adapt the partition, resource request, loaded
+modules or software environment, and transport settings. To use it with a
+scenario makefile, copy it into that scenario as `run_main.batch`, create the
+result directory, and submit through the makefile; for example, from the
+repository root:
 
-In total, there are 31 folders of Fortran code, each to be run in order
+```bash
+cp code/fortran_model/example_slurm_batchfile \
+   code/fortran_model/1_baseline/run_main.batch
+mkdir -p code/fortran_model/1_baseline/result
+cd code/fortran_model/1_baseline
+make run_mpi_slurm
+```
+
+Do not use these cluster-specific settings without reviewing them. Users
+without Slurm should use `run_all_local.sh` as described above. The scenario
+makefiles also contain Linux-specific library paths and compiler flags; the
+portable runner bypasses those settings.
+
+#### Fortran instruction files
+
+The Fortran `read_instructions` routine opens the scenario's
+`instruction.txt` and reads the leading numeric value or values on each line,
+sequentially. Text following those values is annotation for the reader, not a
+separate configuration input. The baseline public file
+`code/fortran_model/1_baseline/instruction.txt` has the following 19 records.
+The "full value" column refers to the matching file under
+`original_fortran_instruction_files/`; a dash means that the public and full
+values are identical.
+
+| Line | Fortran field | Public value | Full value | Purpose |
+|---:|---|---:|---:|---|
+| 1 | `purpose` | 10 | — | Selects the program mode; 10 solves the baseline equilibrium. |
+| 2 | `teachOff_decision` | 1 | — | Switches teacher/offer decisions on (1) or off (0), subject to purpose-specific overrides. |
+| 3 | `wage_decision` | 1 | — | Switches wage decisions on (1) or off (0), subject to purpose-specific overrides. |
+| 4 | `skip_first_inner_loop` | 0 | — | If 1, skips the first inner loop; 0 does not skip it. |
+| 5 | `report_weight_factors` | 1 | — | If 1, enables the weight-factor diagnostic in the applicable first outer-loop round. |
+| 6 | `simplex_length` | 0.25 | — | Sets the initial Nelder-Mead simplex length. |
+| 7 | `maxiter` | 2 | 1000 | Sets the outer-loop/equilibrium maximum iteration count. |
+| 8 | `outer_tol_pct` | 0.005 | — | Sets the percentage-difference convergence tolerance for outer-loop parameters. |
+| 9 | `outer_tol_dif` | 0.005 | — | Is read for instruction-format compatibility but is not used by the shipped active execution paths. |
+| 10 | `h_maxiter` | 2 | 300 | Sets the inner belief-optimization maximum iteration count. |
+| 11 | `h_tol_pct` | 0.1 | — | Sets the percentage-difference convergence tolerance for belief parameters. |
+| 12 | `h_tol_dif` | 0.1 | — | Is read for instruction-format compatibility but is not used by the shipped active execution paths. |
+| 13 | `rcost_experiment` | 0 | — | Activates the zero-resistance-cost counterfactual when set to 1. |
+| 14 | `nomovecost_experiment` | 0 | — | Activates the no-moving-cost counterfactual when set to 1. |
+| 15 | `NcopyT` | 5 | — | Sets the number of teacher copies used in simulation/estimation. |
+| 16 | `NcopyD` | 3 | — | Is read and used to form an unused district-copy count; it does not affect the shipped execution paths. |
+| 17 | `Neconomy` | 2 | 50 | Sets the number of simulated economies for equilibrium/counterfactual runs. |
+| 18 | `starting_economy` | 1 | — | Sets the first simulated economy, allowing earlier economies to be skipped. |
+| 19 | `s_vec` | 0.0 0.0 | — | Sets the two-element subsidy vector across student types; the paper's `(r0,r1)` parameterization equals `(s2,s1-s2)`. |
+
+`purpose` is a nonconsecutive mode code, not an ordered list of steps. The
+values used by the 30 shipped configurations are `-2` (perturbation), `-1`
+(standard errors), `1` (evaluate parameters and write moments), `7` (rigid
+wage), `10` (baseline equilibrium), and `18` (subsidized equilibrium). The
+source also retains several unused legacy/development branches. No
+`purpose = 6` branch is implemented or required, so there is no missing sixth
+step. Purpose 7 turns teacher/offer decisions on and wage decisions off;
+purposes -1 and -2 turn teacher/offer decisions on and skip the inner loop.
+
+The entry and forward-iteration readers use the same first 19-record layout;
+their implementation reads record 19 into `svec_gradient` and constructs
+`s_vec` at run time. They then read six additional records:
+
+| Additional field | Purpose |
+|---|---|
+| `T_max` | Number of model periods. |
+| `max_period_initbeliefs` | Last period for which beliefs are supplied from an input file. |
+| `flag_entry` | Switch controlling teacher entry. |
+| `flag_exit` | Switch controlling teacher exit. |
+| `wage_elas` | Wage elasticity used in the entry/forward model. |
+| `ncopy_entr` | Number of entrant copies used in the simulation. |
+
+`T_max` is 2 in the seven `5_exitentry` scenarios and 6 in the three
+`6_forward` scenarios; these period counts are the same in the public and
+archived instruction files.
+
+For non-entry scenarios, `nteach_filepath.inc` supplies the compile-time
+teacher count, the validation flag, and the repository-relative input path.
+Shared starting files are named `initial_param_guess*.txt` and
+`initial_theta*.txt` under `common_f90s/`. Entry and forward scenarios store
+period-specific belief inputs locally as `mainbelief_50.txt`,
+`wagebelief_50.txt`, and variants such as `_t2`, `_t3`, and subsequent
+periods.
+
+In total, there are 30 scenario directories, each to be run in order
 to produce all modeling results. They are separated out and pre-set for
 easy replication. The scenarios are independent: none requires the generated
 results from another scenario as an input.
 
-For speedy replication under synthetic data, 26 scenario folders currently
-set the maximum iterations and number of economies in `instruction.txt` to 2
-and 2. Five folders retain the fuller settings of 1,000 iterations and 50
-economies: `2_rigid`, `estimation_result`, `perturbation`, `stderr`, and
-`validation_result`. These five fuller settings are intentional for the public
-run and should not be reduced.
+For a faster public synthetic-data replication, 25 active `instruction.txt`
+files set `maxiter`, `h_maxiter`, and `Neconomy` to 2. Five scenarios retain
+the full settings of 1000, 300, and 50: `2_rigid`, `estimation_result`,
+`perturbation`, `stderr`, and `validation_result`. These five full settings
+are intentional for the public run and should not be reduced.
 
 The original full-run configuration files are distributed under
-`original_fortran_instruction_files/`. For each of the 31 runnable scenarios,
-the relative path of the archived `instruction.txt` matches its path below
-`code/fortran_model/`; the Fortran source code is common to the reduced and
-full versions. In the 26 reduced scenarios, the archived files restore
-`maxiter` to 1,000, `h_maxiter` to 300, and `Neconomy` to either 10 or 50.
-All other operative configuration values are unchanged. To run a full
-configuration, copy its archived file over the corresponding public testing
-configuration before invoking the runner. For example:
+`original_fortran_instruction_files/`. All 30 archived files use
+`maxiter = 1000`, `h_maxiter = 300`, and `Neconomy = 50`; their relative paths
+match the runnable scenarios. Exactly 25 public files differ from their
+archived counterparts, and only those three computational-size fields differ.
+To run a full configuration, copy its archived file over the corresponding
+public testing configuration before invoking the runner with `--run`. For
+example:
 
 ```bash
 cp original_fortran_instruction_files/1_baseline/instruction.txt \
    code/fortran_model/1_baseline/instruction.txt
-bash code/fortran_model/run_all_local.sh --ranks 8 --scenario 1_baseline
+bash code/fortran_model/run_all_local.sh --run --ranks 8 \
+  --scenario 1_baseline
 ```
 
 The runner does not select the full configurations automatically. Because
@@ -552,10 +834,11 @@ time is substantially longer than the reduced-run estimates reported above.
 Use a fresh package copy to return to the reduced public configurations after
 running a full configuration.
 
-The fixed seeds and MPI implementation are intended to produce the same
-numerical results across MPI rank counts and supported compiler environments;
-the rank count affects computational speed rather than the model
-specification. The distributed Fortran `result/*.txt` files are based on the
+The model drivers initialize the random-number generator with the same fixed
+seed values. Different compilers, BLAS/MPI implementations, processor counts,
+or reduction orders can nevertheless produce last-digit floating-point
+differences; fixed seeds do not imply byte-for-byte equality across computing
+environments. The distributed Fortran `result/*.txt` files are based on the
 public synthetic workflow or have otherwise been cleared for public
 distribution.
 
@@ -586,6 +869,24 @@ The confidential master writes its direct outputs to `out/`. The supplied
 `produce_exhibits.do` is configured for `out_synth/`; it must be pointed to
 `out/` before generating the corresponding restricted-data outputs. The Data
 Editor will not generate restricted-data outputs.
+
+### In-Text Numbers
+
+-   Code:
+    `code/descriptives/intext_numbers.do` (calculation-based numerical
+    statements only; citation-only contextual facts and author-chosen
+    specification values are omitted).
+-   Main input for item 1:
+    `data/public/proficiency_data/SY2021_FS175_DG583_LEA_data_files/SY2021_FS175_DG583_LEA.csv`
+-   Item 8 (173 of 411 public elementary districts with one school) is a
+    descriptive calculation from the 2014 teacher panel. The program applies
+    the elementary-teacher model-sample restrictions, counts distinct schools
+    within each district, limits the result to the 411 model-estimation
+    districts, and reports the resulting count. It does not require
+    re-estimating the auxiliary models.
+-   Output:
+    `out_synth/tables/Intext_numbers.log` for the public workflow and
+    `out/tables/Intext_numbers.log` for the confidential workflow.
 
 ### Main Paper Tables
 
@@ -665,7 +966,7 @@ Editor will not generate restricted-data outputs.
 -   Code/status:
     `code/descriptives/Table_5_Table_A1.do`
 -   Main input datasets:
-    `code/fortran_model/estimation_result/initial_param_guess.txt`,
+    `code/fortran_model/common_f90s/initial_param_guess.txt`,
     `code/fortran_model/stderr/result/se_param.txt`
 -   Output path:
     `out_synth/tables/Table_5_Table_A1.csv`
@@ -697,7 +998,7 @@ Editor will not generate restricted-data outputs.
 -   Code/status:
     `code/descriptives/Table_8.do`
 -   Main input datasets:
-    `code/fortran_model/4_nomovecost/case_baseline/result`,
+    `code/fortran_model/1_baseline/result`,
     `code/fortran_model/4_nomovecost/case1/result`,
     `code/fortran_model/4_nomovecost/case2/result`,
     `code/fortran_model/4_nomovecost/case2_new2/result`
@@ -755,7 +1056,7 @@ Editor will not generate restricted-data outputs.
 -   Code/status:
     `code/descriptives/Table_5_Table_A1.do`
 -   Main input datasets:
-    `code/fortran_model/estimation_result/initial_param_guess.txt`,
+    `code/fortran_model/common_f90s/initial_param_guess.txt`,
     `code/fortran_model/stderr/result/se_param.txt`
 -   Output path:
     `out_synth/tables/Table_5_Table_A1.csv`
@@ -982,6 +1283,7 @@ Editor will not generate restricted-data outputs.
     `code/fortran_model/6_forward/forward_baseline/result`,
     `code/fortran_model/6_forward/forward_new1/result`,
     `code/fortran_model/6_forward/forward_new2/result`
+-   Period rule: period 6, the terminal period in all three forward scenarios.
 -   Output path:
     `out_synth/tables/Table_B17.csv`
 
@@ -1267,6 +1569,13 @@ Accessed in 2022.
 Google LLC. 2022. "Google Maps." <https://www.google.com/maps>. Accessed in
 September 2022 and used by the authors to construct
 `real_data/district_distance_sdid.dta`.
+
+U.S. Department of Education. 2022. "Performance on Statewide Mathematics
+Assessment, School Year 2020--2021: LEA." *ED Data Express Data Library*.
+File Specification 175, Data Group 583, as of May 25, 2022.
+<https://eddataexpress.ed.gov/download/data-library?page=3>. The original
+provider files are distributed under
+`data/public/proficiency_data/SY2021_FS175_DG583_LEA_data_files/`.
 
 ## Citation and Contact
 

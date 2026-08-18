@@ -14,12 +14,17 @@ set seed 12345
 ********************************************************************************
 ssc install estout, replace
 ssc install ftools, replace
+ssc install require, replace
 ssc install reghdfe, replace
 ssc install coefplot, replace
 ssc install binscatter, replace
 ssc install carryforward, replace
 ssc install spmap, replace
 ssc install sepscatter
+ssc install blindschemes, replace
+
+* blindschemes supplies the plotplain scheme used throughout the workflow.
+set scheme plotplain
 
 * Locate the replication root when launched from either the repository root
 * or this script's own code/auxiliary_regressions directory.

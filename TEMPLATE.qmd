@@ -68,18 +68,6 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 
 # Data description
 
-For any data that cannot be provided as part of the replication package, please provide the following information as part of the README.
-
-> {REQUIRED}  Please specify how long the data will be preserved in the restricted-access location.
-
-> {REQUIRED} Please provide affirmation of support for replication checks.
-  - As per the [JPE policy](https://jpedataeditor.github.io/policy.html), "In cases where data cannot be published in an openly accessible trusted data repository like the JPE dataverse, authors who have requested an exemption to publish them at the time of first submission must commit to preserving the data and code for a period of no less than five years following the publication of the paper. They should also provide reasonable assistance to requests for clarification and replication."
-
-
-> {REQUIRED} Please provide a codebook for the data.
-  - The codebook should at a minimum describe the variables obtained from the data source, in a manner that will let others verify that they have obtained a substantially similar dataset if successfully obtaining access to the data.
-
-
 ## Data Sources
 
 | file/name | public | private | DOI/URL | Access described | cited readme | cited paper |
@@ -94,30 +82,26 @@ For any data that cannot be provided as part of the replication package, please 
 | `real_data/wisconsin_elections.xlsx` | yes | no | [yes](https://www.dailykos.com/stories/2013/07/09/1220127/-Daily-Kos-Elections-2012-election-results-by-congressional-and-legislative-districts) | yes | yes | yes |
 | `real_data/crosswalk_district_county.dta`, `district_county_cz.dta`, `cz_id.csv` | yes | no | [yes](https://doi.org/10.7910/DVN/VVW76J) | yes | yes | yes |
 | `real_data/crosswalk_census_state_id.csv` | yes | no | [yes](https://nces.ed.gov/programs/edge/Geographic/DistrictBoundaries) | yes | yes | yes |
-| `real_data/district_distance_sdid.dta` | yes | no | [yes](https://www.google.com/maps) | yes | yes | no |
+| `real_data/district_distance_sdid.dta` | yes | no | [yes](https://www.google.com/maps) | yes | yes | yes |
 | `real_data/district_id_tag.dta`, `district_id_tag_validation.dta` | yes | no | no | yes | no | no |
 | `real_data/district_shapefiles/WI_School_Districts.*` | yes | no | [yes](https://dpi.wi.gov/wisedash/public/gis-maps) | yes | yes | yes |
 | `real_data/nces_acs_2013-2017/*/DP*.txt` | yes | no | [yes](https://nces.ed.gov/programs/edge/demographic/acsedtables) | yes | yes | yes |
 
 Synthetic datasets are provided only for public replication purposes. 
 
-Shortcomings: the README cites Google Maps for `district_distance_sdid.dta`, but no corresponding proper data citation was found in the paper references. 
-
 # Requirements 
 
 - [x] README is in TXT, MD, or PDF format
 - [x] README is accessible at the root of the package (not inside a folder)
-- [ ] Title conforms to guidance (starts with "Data and Code for: Title of Paper" or "Code for: Title of Paper", is properly capitalized)
+- [x] Title conforms to guidance (starts with "Data and Code for: Title of Paper" or "Code for: Title of Paper", is properly capitalized)
 - [x] Authors (with affiliations) are listed in the same order as on the paper
-
-> {REQUIRED} Please review the title of the deposit as per our guidelines.
 
 ## Stated Requirements
 
 - [ ] No requirements specified
 - [X] Software Requirements specified as follows:
   - Stata 19 
-  - Stata packages: estout 3.33, esttab 2.1.4, ftools 2.50.0, reghdfe 6.13.1, coefplot 1.8.8, binscatter 7.02, carryforward 4.5, spmap 1.3.2, and sepscatter 1.1.0.
+  - Stata packages: estout 3.33, esttab 2.1.4, ftools 2.50.0, reghdfe 6.13.1, coefplot 1.8.8, binscatter 7.02, carryforward 4.5, spmap 1.3.2, sepscatter 1.1.0, blindschemes 1.3.0, require 1.3.1.
   - R 4.2.3 / 4.5.1
   - GNU Fortran with MPI; BLAS/LAPACK
   - Shell/OS.
@@ -128,7 +112,7 @@ Shortcomings: the README cites Google Maps for `district_distance_sdid.dta`, but
 - [X] Time Requirements specified as follows:
   - App. 16 hours 44 minutes including optional synthetic-input regeneration
 
-- [ ] Requirements are complete.
+- [x] Requirements are complete.
 
 # Analyzing Data and Code Files
 
@@ -168,23 +152,7 @@ For Fortran model replication only:
 
 - Opened Stata, changed directory to the root of the package and ran `synthetic_data/code/make_simulated_data.do` to regenerate the public dataset.
 
-- As per Readme, ran `code/master_synth.do`. Several fixes needed to be applied, as described in the following points.
-
-- Code initially failed due to missing packages `blindschemes` and `require` not recalled by authors. Packages were installed and code was relaunched.
-
-```stata
-. set scheme plotplain
-scheme plotplain not found
-r(111);
-```
-
-```stata
-. reghdfe salary_r, a(district_code##year exp##masterup) resid
-reghdfe requires uses the require package to maintain its dependencies; please install it:
- - install from SSC
- - install from GitHub
-r(9);
-```
+- As per Readme, ran `code/master_synth.do`. 
 
 - Ran `code/Figure_B9/cutoff_prefs_id_example_graph.R` as per Readme.
 
@@ -196,21 +164,9 @@ r(9);
 
 # Findings {#sec-findings}
 
-## Missing Requirements
-
-- [ ] Software Requirements 
-  - [ ] Stata packages
-    - blindschemes 
-    - require
-
-> [REQUIRED] Please amend README to contain complete requirements. 
-
-You can copy the section above, amended if necessary.
-
-
 ## Data Preparation Code
 
-Data preparation code ran without issues after having installed required packages.
+Data preparation code ran without issues.
 
 ## Tables and Figures
 
@@ -271,29 +227,31 @@ Due to the confidential nature of data, replication assessed the capacity of the
 
 ## In-Text Numbers
 
-- [X] There are in-text numbers, but they are not identified in the code
+- [X] There are in-text numbers and they are identified in the code
 
-Authors do not identify in-text numbers in their readme. However, replication found several in-text numbers that are not generated by code currently included in the replication package.
+Authors included the script `code/descriptives/intext_numbers.do` to generate in-text numbers and correctly added citations for numbers drawn from external sources. 
 
-| In-text numbers                                                                                                                             | Program | Line Number              | Reproduced? |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|-------------|
-| District proficiency ranges: WI 10-80%, CA 10-85%, TX 10-90%                                                                                | -       | paper p. 2, footnote 1   | no          |
-| Projected Wisconsin budget deficit: $3.6 billion                                                                                            | -       | paper p. 6               | no          |
-| Teachers' share of Wisconsin public employees: 45%                                                                                          | -       | paper p. 7               | no          |
-| Union membership drop: 83% in 2011 to 45% in 2016                                                                                           | -       | paper p. 7               | no          |
-| Wage bounds: 0.3 sd below 1st percentile; 0.2 sd above 99th percentile                                                                      | -       | paper p. 13, footnote 12 | no          |
-| Student district switching: 4.4% avg.; 4.2/4.3/4.2/4.3% in 2010-2013                                                                        | -       | paper p. 17, footnote 17 | no          |
-| Non-adopting to adopting district student moves: 0.8/0.8/0.8/0.9% in 2010-2013                                                              | -       | paper p. 17, footnote 17 | no          |
-| Public elementary one-school districts: 173 of 411                                                                                          | -       | paper p. 17              | no          |
-| Offer-set identification sample: 5,170 of 6,600 teachers non-singleton                                                                      | -       | paper p. 19              | no          |
-| Sample exclusions: substitutes 2.0/1.8%; part-time 2.8/3.9% in 2014/2010                                                                    | -       | paper p. 24, footnote 30 | no          |
-| Experience-correlation with c1/c2: 0.04                                                                                                     | -       | paper p. 27              | no          |
-| Observed-vs-predicted wage fit: slope 0.88, se 0.004, R2 0.85; movers slope 1.08, se 0.05, R2 0.75                                          | -       | paper p. 27, footnote 34 | no          |
-| Race controls barely improve Aux 1a R2: 0.680 to 0.681                                                                                      | -       | paper p. 28, footnote 35 | no          |
-| Offer-set robustness shares: 27%, 23%, 21%, 28%                                                                                             | -       | OA p.9                   | no          |
-| Pre-reform wage schedule fit: corr. 0.93; <10% deviation for 95%; slope 0.98, se 0.001, R2 0.99                                             | -       | OA p.12                  | no          |
-| District/school salary R-MSE explanation: 31.3% district FE; 2.7% added school FE                                                           | -       | OA p.18                  | no          |
-| Student-composition variation: 8.7% district, +2.7% school, 74% district-level R2; abs. diff mean 0.05, sd 0.06, p25/p50/p75 0.01/0.03/0.07 | -       | OA p.18                  | no          |
+As the package relies on confidential data unavailable to the replication team, replication assessed the capacity of the code to produce results that match **qualitatively** those in the paper. Such replicated output is marked with <code>yes<sup>*</sup></code> in the table below.  
+
+The version of the paper available in the current replication package, however, still misses one reference for the teachers' share of Wisconsin public employees.
+
+| In-text numbers                                                                                                                             | Program | Line Number              | Reproduced?                         |
+|---------------------------------------------------------------------------------------------------------------------------------------------|---------|--------------------------|-------------------------------------|
+| District proficiency ranges: WI 4-94%, CA 5-89%, TX 6-90%                                                                                   | -       | paper p. 2, footnote 1   | ED Data Express (2021)              |
+| Projected Wisconsin budget deficit: $3.6 billion                                                                                            | -       | paper p. 6               | Wisconsin Taxpayers Alliance (2011) |
+| Teachers' share of Wisconsin public employees: 45%                                                                                          | -       | paper p. 7               | **no**                                  |
+| Union membership drop: 83% in 2011 to 45% in 2016                                                                                           | -       | paper p. 7               | Baron (2018)                        |
+| Student district switching: 4.4% avg.; 4.2/4.3/4.2/4.3% in 2010-2013                                                                        | -       | paper p. 17, footnote 17 | yes*                                |
+| Non-adopting to adopting district student moves: 0.8/0.8/0.8/0.9% in 2010-2013                                                              | -       | paper p. 17, footnote 17 | yes*                                |
+| Public elementary one-school districts: 173 of 411                                                                                          | -       | paper p. 17              | yes*                                |
+| Sample exclusions: substitutes 2.0/1.8%; part-time 2.8/3.9% in 2014/2010                                                                    | -       | paper p. 24, footnote 30 | yes*                                |
+| Experience-correlation with c1/c2: 0.04                                                                                                     | -       | paper p. 27              | yes*                                |
+| Observed-vs-predicted wage fit: slope 0.88, se 0.004, R2 0.85; movers slope 1.08, se 0.05, R2 0.75                                          | -       | paper p. 27, footnote 34 | yes*                                |
+| Race controls barely improve Aux 1a R2: 0.680 to 0.681                                                                                      | -       | paper p. 28, footnote 35 | yes*                                |
+| Offer-set robustness shares: 27%, 23%, 21%, 28%                                                                                             | -       | OA p.9                   | yes*                                |
+| Pre-reform wage schedule fit: corr. 0.93; <10% deviation for 95%; slope 0.98, se 0.001, R2 0.99                                             | -       | OA p.12                  | yes*                                |
+| District/school salary R-MSE explanation: 31.3% district FE; 2.7% added school FE                                                           | -       | OA p.18                  | yes*                                |
+| Student-composition variation: 8.7% district, +2.7% school, 74% district-level R2; abs. diff mean 0.05, sd 0.06, p25/p50/p75 0.01/0.03/0.07 | -       | OA p.18                  | yes*                                |
 
 # Classification
 
@@ -307,7 +265,7 @@ Authors do not identify in-text numbers in their readme. However, replication fo
 - [ ] None.
 - [ ] `Discrepancy in output` (either figures or numbers in tables or text differ)
 - [ ] `Bugs in code` that were fixable by the replicator (but should be fixed in the final deposit)
-- [x] `Code missing`, in particular if it prevented the replicator from completing the reproducibility check
+- [ ] `Code missing`, in particular if it prevented the replicator from completing the reproducibility check
   - [ ] `Data preparation code missing` should be checked if the code missing seems to be data preparation code
 - [ ] `Code not functional` is more severe than a simple bug: it prevented the replicator from completing the reproducibility check
 - [ ] `Software not available to replicator` may happen for a variety of reasons, but in particular (a) when the software is commercial, and the replicator does not have access to a licensed copy, or (b) the software is open-source, but a specific version required to conduct the reproducibility check is not available.

@@ -1,0 +1,114 @@
+ "Small" match ols - offer subset from model
+                Data          Model
+           -Infinity      -Infinity    wage            
+           -Infinity      -Infinity    exp(lambda)     
+           -Infinity      -Infinity    C1 * lambda     
+           -Infinity      -Infinity    inc             
+           -Infinity      -Infinity    inc * exp[1,3]  
+           -Infinity      -Infinity    inc * exp[4,5]  
+           -Infinity      -Infinity    inc * exp[6,10] 
+           -Infinity      -Infinity    inc * exp[11,15]
+           -Infinity      -Infinity    samecz          
+           -Infinity      -Infinity    urban           
+           -Infinity      -Infinity    suburban        
+           -Infinity      -Infinity    log(dist)       
+           -Infinity      -Infinity    Milwaukee       
+ "Big" match ols - offers from all districts
+                Data          Model
+           -Infinity      -Infinity    wage            
+           -Infinity      -Infinity    exp(lambda)     
+           -Infinity      -Infinity    C1 * lambda     
+           -Infinity      -Infinity    inc             
+           -Infinity      -Infinity    inc * exp[1,3]  
+           -Infinity      -Infinity    inc * exp[4,5]  
+           -Infinity      -Infinity    inc * exp[6,10] 
+           -Infinity      -Infinity    inc * exp[11,15]
+           -Infinity      -Infinity    samecz          
+           -Infinity      -Infinity    urban           
+           -Infinity      -Infinity    suburban        
+           -Infinity      -Infinity    log(dist)       
+           -Infinity      -Infinity    Milwaukee       
+
+omega1 OLS          
+                Data          Model
+        0.0000000000   0.0000000000      Exp3          
+        0.0000000000   0.0000000000      Exp4          
+        0.0000000000   0.0000000000      Exp5          
+        0.0000000000   0.0000000000      Exp6          
+        0.0000000000   0.0000000000      master        
+        0.0000000000   0.0000000000      lambda        
+        0.0000000000   0.0000000000      tc            
+        0.0000000000   0.0000000000      tc_tenured    
+        0.0000000000   0.0000000000      budget_pc     
+        0.0000000000   0.0000000000      capacity      
+        0.0000000000   0.0000000000      urban         
+        0.0000000000   0.0000000000      suburban      
+        0.0000000000   0.0000000000      milwaukee     
+        0.0000000000   0.0000000000      cz_tc         
+        0.0000000000   0.0000000000      cz share ten  
+        0.0000000000   0.0000000000      share dem vote
+        0.0000000000   0.0000000000      intercept     
+omega2	OLS          
+                Data          Model
+        0.0000000000   0.0000000000      Exp3          
+        0.0000000000   0.0000000000      Exp4          
+        0.0000000000   0.0000000000      Exp5          
+        0.0000000000   0.0000000000      Exp6          
+        0.0000000000   0.0000000000      master        
+        0.0000000000   0.0000000000      lambda        
+        0.0000000000   0.0000000000      tc            
+        0.0000000000   0.0000000000      tc_tenured    
+        0.0000000000   0.0000000000      budget_pc     
+        0.0000000000   0.0000000000      capacity      
+        0.0000000000   0.0000000000      urban         
+        0.0000000000   0.0000000000      suburban      
+        0.0000000000   0.0000000000      milwaukee     
+        0.0000000000   0.0000000000      cz_tc         
+        0.0000000000   0.0000000000      cz share ten  
+        0.0000000000   0.0000000000      share dem vote
+        0.0000000000   0.0000000000      intercept     
+ omega moments
+        0.0000000000   0.0000000000    E(omega1)       
+        0.0000000000   0.0000000000    E(omega2)       
+        0.0000000000   0.0000000000    E(omega1*omega2)
+        0.0000000000   0.0000000000    E(omega1^2)     
+        0.0000000000   0.0000000000    E(omega2^2)     
+ omega fractions (probs)
+             0.00000        0.00000          Pr_Omega1( 1)
+             0.00000        0.00000          Pr_Omega1( 2)
+             0.00000        0.00000          Pr_Omega1( 3)
+             0.00000        0.00000          Pr_Omega1( 4)
+             0.00000        0.00000          Pr_Omega1( 5)
+             0.00000        0.00000          Pr_Omega2( 1)
+             0.00000        0.00000          Pr_Omega2( 2)
+             0.00000        0.00000          Pr_Omega2( 3)
+             0.00000        0.00000          Pr_Omega2( 4)
+             0.00000        0.00000          Pr_Omega2( 5)
+             0.00000        0.00000          Pr_Omega2( 6)
+             0.00000        0.00000          Pr_Omega2( 7)
+ omega old
+             0.00000        0.00000    Pr_omega_Old    
+ omega x dem
+             0.00000        0.00000    E(o1 x dem)     
+             0.00000        0.00000    E(o2 x dem)     
+             0.00000        0.00000    E(o1 | dem >=med
+             0.00000        0.00000    E(o2 | dem >=med
+
+ OLS moments:
+                   E(exp)                             E(master)                          E(C1)                              E(C2)           
+ Non-tenured Teachers Only
+                Data          Model                Data          Model                Data          Model                Data          Model
+          0.02061504    -0.00020849         -0.00027343    -0.00000658          0.00000009    -0.00000001         -0.00000003    -0.00000000       Budget Left  
+         -0.62787091    -0.00741642          0.00904222     0.00061336         -0.00000357     0.00000040          0.00000108     0.00000021       Capacity Left
+         -4.41114516    -0.21909082          0.15436589    -0.00565530         -0.00004938     0.00000121          0.00000125     0.00000339       Lambda       
+          7.89246874     3.12986304          0.46057494     0.49099032         -0.00001682    -0.00000720         -0.00002971    -0.00000577       Intercept    
+ Bottom 10% of Teachers
+          0.00239240     0.00008225          0.00000000     0.00000000          0.00000121     0.00000013          0.00000020     0.00000001       Budget Left  
+         -0.11410409    -0.01262277          0.00000000     0.00000000         -0.00004892    -0.00000703         -0.00000722    -0.00000061       Capacity Left
+         -0.81693014    -1.20333399          0.00000000     0.00000000         -0.00035368     0.00005976         -0.00005671     0.00000829       Lambda       
+          2.02477208     1.85298994          0.00000000     0.00000000         -0.00002969    -0.00008448         -0.00008717    -0.00006648       Intercept    
+ All Teachers
+          0.02083723    -0.00208122         -0.00028425    -0.00000297          0.00000009     0.00000003         -0.00000003     0.00000001       Budget Left  
+         -0.69349555     0.09999092          0.00896392     0.00015926         -0.00000336    -0.00000159          0.00000128    -0.00000036       Capacity Left
+         -4.30825805    -1.89852781          0.17677293    -0.00689097         -0.00004956     0.00001308          0.00000054     0.00000912       Lambda       
+          8.76481961     3.62208218          0.45782213     0.49598328         -0.00001992    -0.00000745         -0.00003193    -0.00000708       Intercept    

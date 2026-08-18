@@ -26,7 +26,7 @@ capture mkdir "$out/tables"
 ********************************************************************************
 
 capture log close table_b21a
-log using "$out/tables/Table_B21A.log", name(table_b21a) replace
+log using "$out/tables/Table_B21A.log", name(table_b21a) replace nomsg
 
 * Experience.
 use "$sim/experiencecont_pre_NEW.dta", clear
@@ -69,7 +69,7 @@ log close table_b21a
 ********************************************************************************
 
 capture log close table_b21b
-log using "$out/tables/Table_B21B.log", name(table_b21b) replace
+log using "$out/tables/Table_B21B.log", name(table_b21b) replace nomsg
 
 tempfile lambda_data
 
@@ -77,7 +77,7 @@ use "$sim/lambda_pre_NEW.dta", clear
 reshape long d, i(n) j(district)
 drop n
 sort district
-save `lambda_data', replace
+quietly save `lambda_data', replace
 
 * Urban districts.
 use "$sim/urban_pre_NEW.dta", clear

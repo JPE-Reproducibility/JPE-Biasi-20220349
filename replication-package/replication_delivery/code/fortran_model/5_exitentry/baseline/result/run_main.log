@@ -1,0 +1,447 @@
+ process            4 of            8 is alive, mpi_id:           3
+ process            3 of            8 is alive, mpi_id:           2
+ process            8 of            8 is alive, mpi_id:           7
+ process            5 of            8 is alive, mpi_id:           4
+ process            6 of            8 is alive, mpi_id:           5
+ process            1 of            8 is alive, mpi_id:           0
+ process            2 of            8 is alive, mpi_id:           1
+ process            7 of            8 is alive, mpi_id:           6
+ (re)allocating nteach vars, nteach=        6600
+ Num of Entrants in pool:       13200
+  Baseline prob check:   1209.4687187965642     
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ working on eqlbm for economy:            1  of            2  in period t=           1
+           1
+ belief iter
+ belief thetas   0.50290554616534189        7017.1231186247533        6623.9144136636178     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             95.8093713604416592 time      3.91800000
+ itmax exceeded in amoeba
+   0.0000000000000000       0.42552360021842012     
+           2
+ belief iter
+ belief thetas   0.50290176724058089        7017.1231186247533        6623.9171283689875     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             95.8087853951144979 time      4.08500000
+ itmax exceeded in amoeba
+   0.0000000000000000       0.31914270016381502     
+           3
+ belief iter
+ belief thetas   0.50289893250166162        7017.1231186247533        6623.9191644646717     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             95.8083459330243841 time      4.73800000
+ itmax exceeded in amoeba
+   0.0000000000000000       0.23935702512286125     
+ belief thetas   0.50289680614203935        7017.1231186247533        6623.9206915952473     
+ working on eqlbm for economy:            2  of            2  in period t=           1
+           1
+ belief iter
+ belief thetas   0.52198924021725046        7037.5561055706430        6626.3027708096151     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             97.4579884560311029 time      4.03700000
+ itmax exceeded in amoeba
+   0.0000000000000000       0.29418067709309881     
+           2
+ belief iter
+ belief thetas   0.52198743427544680        7037.5561055706430        6626.3042932667695     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             97.4575863662638824 time      4.09100000
+ itmax exceeded in amoeba
+   0.0000000000000000       0.22063550781982411     
+           3
+ belief iter
+ belief thetas   0.52198607967424637        7037.5561055706430        6626.3054351008723     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             97.4572848040500190 time      4.09900000
+ itmax exceeded in amoeba
+   0.0000000000000000       0.16547663086486802     
+ belief thetas   0.52198506364311370        7037.5561055706430        6626.3062914950215     
+ --------- Equilibrium Simulation Finished ----------           1
+ sim match sum check in obj        6600           0           1
+ inc sum check in obj         408           1         411
+ moving population forward, period:           2 of,            2
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   0.0000000000000000      avg % wage change   0.0000000000000000      avg wage change   0.0000000000000000      wage elas:   1.0000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   0.0000000000000000      avg % wage change entrant   0.0000000000000000      avg wage change entrant   0.0000000000000000      wage elas:   1.0000000000000000     
+ before calc wage change
+ (re)allocating nteach vars, nteach=        6600
+           1 nteach:        6600 nExit         500 nEntry         500
+ working on eqlbm for economy:            1  of            2  in period t=           2
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ belief iter
+ belief thetas   0.89399203576545372        6947.5388460214535        5394.6965632790398     
+ param            1
+ belief thetas   0.98293870035870834        6947.5388460214535        5149.5249702634210     
+ param            2
+ belief thetas   0.94564447153464981        6947.5388460214535        5369.1766137278946     
+ param            3
+ belief thetas   0.90614629413726511        6947.5388460214535        5364.2215316432203     
+ param            4
+ belief thetas   0.89399109135844890        6947.5388460214535        5394.6968952387952     
+ param            5
+ belief thetas   0.89466376659407287        6947.5388460214535        5393.5346963397160     
+ param            6
+ belief thetas   0.92427227632303233        6947.5388460214535        5351.8143707929912     
+ param            7
+ belief thetas   0.93867080547570625        6947.5388460214535        5267.6028090837917     
+ param            8
+ belief thetas   0.90181071194491524        6947.5388460214535        5429.0521101584009     
+ param            9
+ belief thetas   0.89398548629609897        6947.5388460214535        5394.6997181241459     
+ param           10
+ belief thetas   0.89418499473208379        6947.5388460214535        5392.5435985033291     
+ param           11
+ belief thetas   0.89406878825073877        6947.5388460214535        5393.6609004775501     
+ param           12
+ belief thetas   0.89399228700379507        6947.5388460214535        5394.6729314742770     
+ param           13
+ belief thetas   0.89433703165827660        6947.5388460214535        5391.6624986399211     
+ param           14
+ belief thetas   0.96964835461128762        6947.5388460214535        5380.7360084887305     
+ param           15
+ belief thetas   0.96087185212716608        6947.5388460214535        5342.6273492254568     
+ param           16
+ belief thetas    1.0046135301706092        6947.5388460214535        5297.8444279063360     
+ param           17
+ belief thetas   0.92328282721991239        6947.5388460214535        5313.4970299484648     
+ param           18
+ belief thetas   0.89300291834960688        6947.5388460214535        5336.9723084797679     
+ param           19
+ belief thetas   0.89399203576545860        6947.5388460214535        5394.6965632789970     
+ param           20
+ belief thetas   0.89401524246171460        6947.5388460214535        5393.6804412381052     
+ param           21
+ belief thetas   0.89399203576545372        6947.5388460214535        5394.6965632790398     
+ param           22
+ belief thetas   0.89399203576545372        6947.5388460214535        5394.6965632790398     
+ belief thetas   0.88310072803931372        6947.5388460214535        5399.6865425321894     
+ belief thetas   0.88291459806092121        6947.5388460214535        5410.8411496705248     
+iterations         2 best value              0.8829145980609212 time      4.47400000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             94.7606970672220399 time      4.36500000
+ itmax exceeded in amoeba
+   3.0808113103847380E-002  0.17951776884214593     
+           2
+ belief iter
+ belief thetas   0.88291321428338265        6947.5388460214535        5410.8419164768520     
+ param            1
+ belief thetas   0.95545370481231029        6947.5388460214535        5184.4653364094565     
+ param            2
+ belief thetas   0.93052174317944403        6947.5388460214535        5387.9396398426416     
+ param            3
+ belief thetas   0.89314877200977194        6947.5388460214535        5383.7034403554298     
+ param            4
+ belief thetas   0.88291247224799696        6947.5388460214535        5410.8420964991883     
+ param            5
+ belief thetas   0.88330576639746772        6947.5388460214535        5409.9122983886582     
+ param            6
+ belief thetas   0.90742490593964997        6947.5388460214535        5374.1007171872061     
+ param            7
+ belief thetas   0.91995684120031262        6947.5388460214535        5292.5390730775816     
+ param            8
+ belief thetas   0.88890273260131403        6947.5388460214535        5443.9313756682404     
+ param            9
+ belief thetas   0.88290773314524851        6947.5388460214535        5410.8442812548765     
+ param           10
+ belief thetas   0.88306116957988112        6947.5388460214535        5409.1487124114828     
+ param           11
+ belief thetas   0.88297215142013574        6947.5388460214535        5409.9951800140534     
+ param           12
+ belief thetas   0.88291337266140746        6947.5388460214535        5410.8266910463481     
+ param           13
+ belief thetas   0.88309810851897852        6947.5388460214535        5408.3416073256667     
+ param           14
+ belief thetas   0.95300440427547661        6947.5388460214535        5398.2389482633089     
+ param           15
+ belief thetas   0.96191669669861701        6947.5388460214535        5355.5706015783844     
+ param           16
+ belief thetas   0.90539761620522763        6947.5388460214535        5360.4226829217305     
+ param           17
+ belief thetas   0.92070359429331006        6947.5388460214535        5319.6034544186796     
+ param           18
+ belief thetas   0.88210946572003812        6947.5388460214535        5355.1781205501002     
+ param           19
+ belief thetas   0.88291321428338376        6947.5388460214535        5410.8419164768411     
+ param           20
+ belief thetas   0.88294338939419581        6947.5388460214535        5409.5098169230178     
+ param           21
+ belief thetas   0.88291321428338265        6947.5388460214535        5410.8419164768520     
+ param           22
+ belief thetas   0.88291321428338265        6947.5388460214535        5410.8419164768520     
+ belief thetas   0.87488347625895624        6947.5388460214535        5395.5183859194849     
+ belief thetas   0.87419625415253654        6947.5388460214535        5395.2176804685432     
+iterations         2 best value              0.8741962541525365 time      4.52400000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             94.7604612816343916 time      4.39000000
+ itmax exceeded in amoeba
+   3.0808113103847002E-002  0.13463832663160949     
+           3
+ belief iter
+ belief thetas   0.87419530367396769        6947.5388460214535        5395.2182182888073     
+ param            1
+ belief thetas   0.93158423215786956        6947.5388460214535        5180.6551290162279     
+ param            2
+ belief thetas   0.91797010303634730        6947.5388460214535        5374.6471799825704     
+ param            3
+ belief thetas   0.88217608635694911        6947.5388460214535        5370.7748777007337     
+ param            4
+ belief thetas   0.87419458433876063        6947.5388460214535        5395.2184377616122     
+ param            5
+ belief thetas   0.87445515204457580        6947.5388460214535        5394.3734643972311     
+ param            6
+ belief thetas   0.89314549054707193        6947.5388460214535        5362.3056814461988     
+ param            7
+ belief thetas   0.90400532472314399        6947.5388460214535        5282.2845924132380     
+ param            8
+ belief thetas   0.87766584087858235        6947.5388460214535        5426.7335664071516     
+ param            9
+ belief thetas   0.87419011872168562        6947.5388460214535        5395.2206449015830     
+ param           10
+ belief thetas   0.87430885850516094        6947.5388460214535        5393.8197351848130     
+ param           11
+ belief thetas   0.87424094623687376        6947.5388460214535        5394.4569415494861     
+ param           12
+ belief thetas   0.87419540298732945        6947.5388460214535        5395.2080195373783     
+ param           13
+ belief thetas   0.87419556480907523        6947.5388460214535        5393.0697235670923     
+ param           14
+ belief thetas   0.93876060323944510        6947.5388460214535        5383.8726395692693     
+ param           15
+ belief thetas   0.89291843980648955        6947.5388460214535        5361.4961959536313     
+ param           16
+ belief thetas   0.90279559748544536        6947.5388460214535        5339.1892698658958     
+ param           17
+ belief thetas   0.92266134937978928        6947.5388460214535        5292.9909726751366     
+ param           18
+ belief thetas   0.87355671675657909        6947.5388460214535        5341.5955109641636     
+ param           19
+ belief thetas   0.87419530367396825        6947.5388460214535        5395.2182182888046     
+ param           20
+ belief thetas   0.87421865501842488        6947.5388460214535        5394.2060322555799     
+ param           21
+ belief thetas   0.87419530367396769        6947.5388460214535        5395.2182182888073     
+ param           22
+ belief thetas   0.87419530367396769        6947.5388460214535        5395.2182182888073     
+ belief thetas   0.81681947358580664        6947.5388460214535        5355.1164982182918     
+ belief thetas   0.74501539559534202        6947.5388460214535        5345.6718742184812     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             94.7602566459698465 time      4.36300000
+ itmax exceeded in amoeba
+   3.5573345895369174E-002  0.23716099851856748     
+ belief thetas   0.74501554333792830        6947.5388460214535        5345.6716636208821     
+ working on eqlbm for economy:            2  of            2  in period t=           2
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ finished setting entrants
+ slave before generate inc variables
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ belief iter
+ belief thetas   0.87406407108206674        6975.7594668960337        5282.2590996852259     
+ param            1
+ belief thetas   0.96522836293020409        6975.7594668960337        5052.7549666616142     
+ param            2
+ belief thetas   0.92357210335494622        6975.7594668960337        5257.3976560808860     
+ param            3
+ belief thetas   0.88620787786245037        6975.7594668960337        5249.6414844979081     
+ param            4
+ belief thetas   0.87406345584409972        6975.7594668960337        5282.2594059807552     
+ param            5
+ belief thetas   0.87477514904100329        6975.7594668960337        5281.1313651734336     
+ param            6
+ belief thetas   0.90482264464052753        6975.7594668960337        5240.9020767780958     
+ param            7
+ belief thetas   0.91985870824312799        6975.7594668960337        5163.3938348801457     
+ param            8
+ belief thetas   0.88199122575515876        6975.7594668960337        5312.2170407356807     
+ param            9
+ belief thetas   0.87405751783698338        6975.7594668960337        5282.2628395417696     
+ param           10
+ belief thetas   0.87407368055926271        6975.7594668960337        5282.1583058010710     
+ param           11
+ belief thetas   0.87406709768427437        6975.7594668960337        5282.2208812139379     
+ param           12
+ belief thetas   0.87406408074804331        6975.7594668960337        5282.2582051575873     
+ param           13
+ belief thetas   0.87451116188582800        6975.7594668960337        5279.3245243274650     
+ param           14
+ belief thetas   0.94755308827539309        6975.7594668960337        5268.9731641306234     
+ param           15
+ belief thetas   0.94467369649403043        6975.7594668960337        5228.8466072242427     
+ param           16
+ belief thetas   0.99125916562707961        6975.7594668960337        5182.4754421611769     
+ param           17
+ belief thetas   0.90324939540014226        6975.7594668960337        5201.4163827997209     
+ param           18
+ belief thetas   0.87297415314867810        6975.7594668960337        5219.1632400767976     
+ param           19
+ belief thetas   0.87406407108207229        6975.7594668960337        5282.2590996851595     
+ param           20
+ belief thetas   0.87409637660035300        6975.7594668960337        5280.9023434019482     
+ param           21
+ belief thetas   0.87406407108206674        6975.7594668960337        5282.2590996852259     
+ param           22
+ belief thetas   0.87406407108206674        6975.7594668960337        5282.2590996852259     
+ belief thetas   0.86000410318832499        6975.7594668960337        5291.3756912522967     
+ belief thetas   0.85839007800343092        6975.7594668960337        5305.0728648146269     
+iterations         2 best value              0.8583900780034309 time      4.20800000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             97.4663532233849708 time      4.14100000
+ itmax exceeded in amoeba
+   3.0808113103847467E-002   7.0803311278963745     
+           2
+ belief iter
+ belief thetas   0.85839054539968407        6975.7594668960337        5305.0792420118560     
+ param            1
+ belief thetas   0.93186894191318626        6975.7594668960337        5094.5006323146599     
+ param            2
+ belief thetas   0.90408171522999303        6975.7594668960337        5282.6494770574500     
+ param            3
+ belief thetas   0.86848700435112380        6975.7594668960337        5276.0356393399052     
+ param            4
+ belief thetas   0.85839007339097639        6975.7594668960337        5305.0794438824323     
+ param            5
+ belief thetas   0.85880328354113489        6975.7594668960337        5304.1851983390279     
+ param            6
+ belief thetas   0.88293792665778426        6975.7594668960337        5269.9497715784410     
+ param            7
+ belief thetas   0.89589782701803811        6975.7594668960337        5195.1335253243506     
+ param            8
+ belief thetas   0.86421709068664843        6975.7594668960337        5334.0923575079860     
+ param            9
+ belief thetas   0.85838516711484947        6975.7594668960337        5305.0821421951523     
+ param           10
+ belief thetas   0.85839722326691725        6975.7594668960337        5305.0073351788669     
+ param           11
+ belief thetas   0.85839266189950003        6975.7594668960337        5305.0507858905657     
+ param           12
+ belief thetas   0.85839055096745753        6975.7594668960337        5305.0787151816585     
+ param           13
+ belief thetas   0.85864667883157675        6975.7594668960337        5302.6891286265600     
+ param           14
+ belief thetas   0.92632297968961630        6975.7594668960337        5293.0841469117686     
+ param           15
+ belief thetas   0.94157552180887172        6975.7594668960337        5248.4117074904198     
+ param           16
+ belief thetas   0.88280363344463619        6975.7594668960337        5252.5734163821035     
+ param           17
+ belief thetas   0.89604692191833368        6975.7594668960337        5214.3235545259431     
+ param           18
+ belief thetas   0.85750442498706747        6975.7594668960337        5244.2587052725758     
+ param           19
+ belief thetas   0.85839054539968573        6975.7594668960337        5305.0792420118369     
+ param           20
+ belief thetas   0.85842541138777861        6975.7594668960337        5303.6111289684659     
+ param           21
+ belief thetas   0.85839054539968407        6975.7594668960337        5305.0792420118560     
+ param           22
+ belief thetas   0.85839054539968407        6975.7594668960337        5305.0792420118560     
+ belief thetas   0.84762926536120320        6975.7594668960337        5292.7310685153016     
+ belief thetas   0.84548881609392457        6975.7594668960337        5294.2104027565383     
+iterations         2 best value              0.8454888160939246 time      4.31100000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             97.4658778080668213 time      4.31600000
+ itmax exceeded in amoeba
+   3.0808113103847245E-002   8.8504139098704684     
+           3
+ belief iter
+ belief thetas   0.84548938774932625        6975.7594668960337        5294.2182162894323     
+ param            1
+ belief thetas   0.90292626361204520        6975.7594668960337        5095.2545107933929     
+ param            2
+ belief thetas   0.88754566471870389        6975.7594668960337        5273.9837191165598     
+ param            3
+ belief thetas   0.85328710083954429        6975.7594668960337        5268.0340991501107     
+ param            4
+ belief thetas   0.84548892893691652        6975.7594668960337        5294.2184441341233     
+ param            5
+ belief thetas   0.84575141315309188        6975.7594668960337        5293.4120821314655     
+ param            6
+ belief thetas   0.86419755971101209        6975.7594668960337        5262.8498977138406     
+ param            7
+ belief thetas   0.87533284153340685        6975.7594668960337        5189.5802517347138     
+ param            8
+ belief thetas   0.84849152516763637        6975.7594668960337        5321.9244249069443     
+ param            9
+ belief thetas   0.84548431136936819        6975.7594668960337        5294.2211773158297     
+ param           10
+ belief thetas   0.84549402364080517        6975.7594668960337        5294.1643881135906     
+ param           11
+ belief thetas   0.84549087807742762        6975.7594668960337        5294.1948614791791     
+ param           12
+ belief thetas   0.84548939093213316        6975.7594668960337        5294.2178941436314     
+ param           13
+ belief thetas   0.84553316142477675        6975.7594668960337        5292.1789925516214     
+ param           14
+ belief thetas   0.90794826742786605        6975.7594668960337        5283.4194238939135     
+ param           15
+ belief thetas   0.86590973037524754        6975.7594668960337        5259.3527670268741     
+ param           16
+ belief thetas   0.87648920410613751        6975.7594668960337        5235.8475888465537     
+ param           17
+ belief thetas   0.89378802016252490        6975.7594668960337        5192.5805583902029     
+ param           18
+ belief thetas   0.84478459522897120        6975.7594668960337        5235.6553901433299     
+ param           19
+ belief thetas   0.84548938774932658        6975.7594668960337        5294.2182162894287     
+ param           20
+ belief thetas   0.84551773378488693        6975.7594668960337        5293.0364401201150     
+ param           21
+ belief thetas   0.84548938774932625        6975.7594668960337        5294.2182162894323     
+ param           22
+ belief thetas   0.84548938774932625        6975.7594668960337        5294.2182162894323     
+ belief thetas   0.78989270688192281        6975.7594668960337        5255.0333789613624     
+ belief thetas   0.71903947875322538        6975.7594668960337        5245.6472914513151     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             97.4652838782999993 time      4.27000000
+ itmax exceeded in amoeba
+   3.5573345895368945E-002   11.063017387338089     
+ belief thetas   0.71904017046894608        6975.7594668960337        5245.6568355105092     
+ --------- Equilibrium Simulation Finished ----------           2
+ sim match sum check in obj        6600           0           1
+ inc sum check in obj         409           1         411
+ --------------
+ END OF PROGRAM

@@ -1,8 +1,3 @@
----------------------------------------------------------------------------------
-      name:  table_b21a
-       log:  deterministic synthetic exhibit log
-  log type:  text
- opened on:  deterministic synthetic run
 
 . 
 . * Experience.
@@ -132,8 +127,3 @@
 
 . 
 . log close table_b21a
-      name:  table_b21a
-       log:  deterministic synthetic exhibit log
-  log type:  text
- closed on:  deterministic synthetic run
----------------------------------------------------------------------------------

@@ -1,0 +1,1052 @@
+ process            3 of            8 is alive, mpi_id:           2
+ process            8 of            8 is alive, mpi_id:           7
+ process            7 of            8 is alive, mpi_id:           6
+ process            5 of            8 is alive, mpi_id:           4
+ process            4 of            8 is alive, mpi_id:           3
+ process            2 of            8 is alive, mpi_id:           1
+ process            6 of            8 is alive, mpi_id:           5
+ process            1 of            8 is alive, mpi_id:           0
+ running se perturbations
+ r:      7.0000000298023224E-002
+ mins:   9.9999997764825821E-003
+      teacher decision         wage decision            offer eqbm
+                     1                     1                     1
+  INNER LOOP            0
+ skipping first inner loop
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ r_se=   7.0000000298023224E-002
+ perturb min=   9.9999997764825821E-003
+ param perturbation
+  INNER LOOP            1
+   objective function call:            0  best value:  0.62968993646532079     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            2
+   objective function call:            0  best value:  0.63300402713108883     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            3
+   objective function call:            0  best value:  0.63005483990712630     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            4
+   objective function call:            0  best value:  0.62997983195058782     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            5
+   objective function call:            0  best value:  0.62991009330543468     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            6
+   objective function call:            0  best value:  0.63000051791408940     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            7
+   objective function call:            0  best value:  0.63154542077444176     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            8
+   objective function call:            0  best value:  0.63063931318998390     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP            9
+   objective function call:            0  best value:  0.62846094656802731     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           10
+   objective function call:            0  best value:  0.63028070416890258     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           11
+   objective function call:            0  best value:  0.63259641685063406     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           12
+   objective function call:            0  best value:  0.63023042633906701     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           13
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           14
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           15
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           16
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           17
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           18
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           19
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           20
+   objective function call:            0  best value:  0.59524193803546610     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           21
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           22
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           23
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           24
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           25
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           26
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ param perturbation
+  INNER LOOP           27
+   objective function call:            0  best value:  0.62991011947776820     
+    theta dif   0.0000000000000000     
+ Matrix in linreg is numerically singular!
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ n aux params:         131
+ --------------
+ END OF PROGRAM

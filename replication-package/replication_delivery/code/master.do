@@ -14,12 +14,17 @@ set seed 12345
 ********************************************************************************
 ssc install estout, replace
 ssc install ftools, replace
+ssc install require, replace
 ssc install reghdfe, replace
 ssc install coefplot, replace
 ssc install binscatter, replace
 ssc install carryforward, replace
 ssc install spmap, replace
 ssc install sepscatter
+ssc install blindschemes, replace
+
+* blindschemes supplies the plotplain scheme used throughout the workflow.
+set scheme plotplain
 
 ********************************************************************************
 * Locate the replication root
@@ -151,6 +156,9 @@ do $code/build/build_simulation_lndist.do
 * Generating Tables and Figures - Main paper
 ********************************************************************************
 
+* In-text numerical statements reported in the paper and Online Appendix.
+* Writes $out/tables/Intext_numbers.log before exhibit generation.
+do $code/descriptives/intext_numbers.do
 
 * Tables 1, 3 
 do $code/descriptives/summary.do

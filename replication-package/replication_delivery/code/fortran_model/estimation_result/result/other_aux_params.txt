@@ -1,0 +1,40 @@
+
+  **** All Teachers **** 
+
+ Lambda quintiles (low to high)
+  exp data exp model   c1 data  c1 model   c2 data  c2 model   MA data  MA model
+  12.88473   4.01481  -0.00004   0.00000   0.00002   0.00002   0.50188   0.51851
+  12.94902   2.25908  -0.00004   0.00000   0.00002   0.00002   0.49507   0.51647
+  12.93598   2.29799  -0.00004   0.00000   0.00002   0.00002   0.49771   0.51217
+  12.84299   2.25479  -0.00004   0.00000   0.00002   0.00002   0.50381   0.51778
+  12.98795   3.62560  -0.00004  -0.00000   0.00002   0.00002   0.50151   0.51363
+
+ Budget per teacher quintiles (low to high)
+  exp data exp model   c1 data  c1 model   c2 data  c2 model   MA data  MA model
+  12.62729   2.15980  -0.00004   0.00000   0.00002   0.00002   0.52618   0.51698
+  12.76914   2.18684  -0.00004   0.00000   0.00002   0.00002   0.49363   0.51790
+  12.92374   2.65084  -0.00004   0.00001   0.00002   0.00002   0.50108   0.51968
+  12.93055   2.84643  -0.00004  -0.00000   0.00002   0.00002   0.48476   0.51126
+  13.34559   4.59651  -0.00004  -0.00001   0.00002   0.00002   0.49442   0.51275
+
+ Suburban (1st row) vs. non-suburban (2nd row)
+  exp data exp model   c1 data  c1 model   c2 data  c2 model   MA data  MA model
+  13.09542   6.15166  -0.00004  -0.00001   0.00002   0.00002   0.51614   0.50896
+  12.88800   2.29108  -0.00004   0.00000   0.00002   0.00002   0.49702   0.51695
+
+ Urban (1st row) vs. non-urban (2nd row)
+  exp data exp model   c1 data  c1 model   c2 data  c2 model   MA data  MA model
+  12.88718   3.10194  -0.00004  -0.00000   0.00002   0.00002   0.49403   0.50918
+  12.92164   2.88375  -0.00004  -0.00000   0.00002   0.00002   0.50024   0.51597
+
+ **** New Hires (including only districts with new hires) ****
+
+              moment      data     model
+new hires/capacity     0.99665   0.28524
+exp                   12.90605   2.32586
+v1                    -0.00004   0.00000
+v2                     0.00002   0.00002
+master                 0.49985   0.51286
+
+ **** Fraction of teachers stay in d0, data vs model ****
+   0.00333   0.73011

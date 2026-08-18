@@ -139,50 +139,15 @@ program main
         !call Nelder_Mead(param0, outer_tol_pct, objective_function, 1, maxiter, outer_tol_dif, simplex_length)
         call nelder_meade(param0,outer_tol_pct,objective_function,0,maxiter,simplex_length)
 
-     else if (purpose == -1) then !calculating standard error
+     else if (purpose == -2) then !calculating perturbation
         ! need to loop over all parameters and save betas, then we can compute numerical derivatives
         !    take care also to adjust the transformed params
-
-        
 
         print*, 'running perturbation exercise for appendix'
 
         allocate(initial_param_se(nparam), param_se(nparam), perturbation(nparam))
         allocate(parammat(nparam,sum(incl)+1))
         allocate(auxmat(naux+naux_omega+naux_other,sum(incl)+1))
-
-        !allocate(semat(sum(incl),size(r_se_list)+1))
-        !allocate(semat2(sum(incl)-1,size(r_se_list)+1))
-
-        !also now need to find dimensions to allocate teacher and district subsets
-        !teachers
-        !ntparam = 0
-        !do i=1, nalpha
-        !   if (incl(i) == 1) ntparam = ntparam + 1
-        !end do
-        !!also need teacher sigma term
-        !if(incl(nalpha+nbeta+1) == 1) ntparam = ntparam + 1
-        !
-        !allocate(sematt(ntparam,size(r_se_list)+1))
-
-        !districts
-        !ndparam = 0
-        !do i=nalpha+1, nparam
-        !   !everything else, being sure to remove teacher sigma term
-        !   if( i .ne. nalpha+nbeta+1) then
-        !      if (incl(i) == 1) ndparam = ndparam + 1
-        !   else
-        !      !save index of the teacher sigma term in incl terms so we can use later
-        !      sigmaind = ntparam-1 + ndparam+1
-        !   end if
-        !end do
-        !
-        !allocate(sematd(ndparam,size(r_se_list)+1))
-
-
-
-
-        
 
         !get vector of ``paper'' model params, i.e. the ones we will perturb
         initial_param_se = initial_param

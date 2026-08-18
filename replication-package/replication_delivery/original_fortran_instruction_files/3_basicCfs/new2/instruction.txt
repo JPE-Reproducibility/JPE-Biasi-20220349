@@ -1,0 +1,22 @@
+18             Purpose       : see note
+1             teacher/offer decision: see note
+1             wage decision : see note
+0            skip first inner loop: 0 - don't skip.  1 - skip. (Skipping first inner loop ensures obj value will be the same as where we left of iteration.)
+1             Report weight factors : 0 - no reporting, 1 - write to moment_weight_factors.txt
+0.25          simplex_length: Initial simplex length
+1000          maxiter       : Maximum iterations for outer loop and equilibrium convergence
+0.005         outer_tol_pct : tolerance, outer loop parameters pct diff, best & worst simplex point
+0.005         outer_tol_dif : tolerance, outer loop parameters diff, best & worst simplex point
+300           h_maxiter     : max iterations, belief nelder mead
+0.1           h_tol_pct     : tolerance, belief parameters, pct dif
+0.1           h_tol_dif     : tolerance, belief parameters, diff
+0             rcost_experiment      : cf exercise of zero rcost
+0             nomovecost_experiment : cf exercise of no moving costs
+5             NcopyT        : No. of copies of teachers for estimation
+3             NcopyD        : No. of copies of districts for estimation
+50           Neconomy      : No. of economies to simulate in equilibrium/cf
+1             starting_economy : option to skip some of the economies if doing the equilibrium code (purpose 10+)
+7.0 0.0      s_vec : subsidy 'gradient' across student types (c1/c2)
+
+-------------------------------------------------------------------------------------
+See replication readme file for detailed description of instruction options

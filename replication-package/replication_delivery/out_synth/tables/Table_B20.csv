@@ -1,0 +1,10 @@
+row_label,New1_norcost,New2_norcost,New3_norcost,New4_norcost
+TC for all students in the state (efficiency),-0.00,-0.00,-0.00,-0.00
+C1 for low-achieving students in the state,-0.00,-0.00,-0.00,-0.00
+C2 for high-achieving students in the state,-0.00,-0.00,-0.00,-0.00
+TC in 4th quartile lambda_d districts,-0.09,-0.09,-0.09,-0.09
+TC in 3rd quartile lambda_d districts,-0.28,-0.28,-0.28,-0.28
+TC in 2nd quartile lambda_d districts, 0.04, 0.04, 0.04, 0.04
+TC in 1st quartile lambda_d districts,-0.00,-0.00,-0.00,-0.00
+"Bonus Rates (r0, r1)","(2.3, 3.1)","(0, 7.0)","(1.6, 4.3)","(3.8, 0)"
+Program cost ($1000 per teacher),0.00,0.00,0.00,0.00

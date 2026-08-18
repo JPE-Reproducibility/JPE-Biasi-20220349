@@ -1,0 +1,169 @@
+ process            8 of            8 is alive, mpi_id:           7
+ process            4 of            8 is alive, mpi_id:           3
+ process            1 of            8 is alive, mpi_id:           0
+ process            7 of            8 is alive, mpi_id:           6
+ process            5 of            8 is alive, mpi_id:           4
+ process            2 of            8 is alive, mpi_id:           1
+ process            6 of            8 is alive, mpi_id:           5
+ process            3 of            8 is alive, mpi_id:           2
+ (re)allocating nteach vars, nteach=        6600
+ Num of Entrants in pool:       13200
+  Baseline prob check:   1209.4687187965642     
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ working on eqlbm for economy:            1  of            2  in period t=           1
+           1
+ wage iter
+iterations         2 best value             95.8093713604416592 time      3.87600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.50290176724058089        7017.1231186247533        6623.9171283689875     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.42552360021842012     
+           2
+ wage iter
+iterations         2 best value             95.8087853951144979 time      4.00800000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.50289893250166162        7017.1231186247533        6623.9191644646717     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.31914270016381502     
+           3
+ wage iter
+iterations         2 best value             95.8083459330243841 time      4.18500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.50289680614203935        7017.1231186247533        6623.9206915952473     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.23935702512286125     
+ belief thetas   0.50289680614203935        7017.1231186247533        6623.9206915952473     
+ working on eqlbm for economy:            2  of            2  in period t=           1
+           1
+ wage iter
+iterations         2 best value             97.4579884560311029 time      4.27700000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52198743427544680        7037.5561055706430        6626.3042932667695     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.29418067709309881     
+           2
+ wage iter
+iterations         2 best value             97.4575863662638824 time      4.24600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52198607967424637        7037.5561055706430        6626.3054351008723     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.22063550781982411     
+           3
+ wage iter
+iterations         2 best value             97.4572848040500190 time      4.24600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52198506364311370        7037.5561055706430        6626.3062914950215     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.16547663086486802     
+ belief thetas   0.52198506364311370        7037.5561055706430        6626.3062914950215     
+ --------- Equilibrium Simulation Finished ----------           1
+ sim match sum check in obj        6600           0           1
+ inc sum check in obj         408           1         411
+The subsidy multipliers are s=(5.40, 2.30), which is equivalent to: r=(2.30, 3.10)
+ moving population forward, period:           2 of,            2
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   2.7825499016032040E-008 avg % wage change   2.9980718302480316E-005 avg wage change   7.2034724603897856E-004 wage elas:   1.5000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   2.7825499016032040E-008 avg % wage change entrant   2.9980718302480316E-005 avg wage change entrant   7.2034724603897856E-004 wage elas:   1.5000000000000000     
+ before calc wage change
+ In expectation, we will get entrants =        1029  and exits =         434
+ (re)allocating nteach vars, nteach=        7195
+           1 nteach:        7195 nExit         434 nEntry        1029
+ working on eqlbm for economy:            1  of            2  in period t=           2
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value             80.0594797580890685 time      5.95700000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.46076417122081081        7671.9293055453072        6904.4155969465974     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        2.2622815243373133     
+           2
+ wage iter
+iterations         2 best value             80.0552529705926901 time      6.10800000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.46076349623422191        7671.9293055453072        6904.4428703132089     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        2.8257117671404615     
+           3
+ wage iter
+iterations         2 best value             80.0499712924572719 time      6.02600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.46076265145010770        7671.9293055453072        6904.4769606695045     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        3.5321397089255755     
+ belief thetas   0.46076265145010770        7671.9293055453072        6904.4769606695045     
+ working on eqlbm for economy:            2  of            2  in period t=           2
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ finished setting entrants
+ finished setting czten and tenure
+ slave before generate inc variables
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value             79.0713811954844061 time      5.61100000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.47008467309122676        7699.3960789366820        7671.0134691988978     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        2.2148166250381882     
+           2
+ wage iter
+iterations         2 best value             79.0660026163722165 time      5.62500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.47008335423259917        7699.3960789366820        7671.0369651924839     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        3.5706987081988926     
+           3
+ wage iter
+iterations         2 best value             79.0592822506287263 time      5.82000000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.47008169990174042        7699.3960789366820        7671.0663328865894     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        4.4633733852486159     
+ belief thetas   0.47008169990174042        7699.3960789366820        7671.0663328865894     
+ --------- Equilibrium Simulation Finished ----------           2
+ sim match sum check in obj        7195           0           1
+ inc sum check in obj         410           1         411
+ --------------
+ END OF PROGRAM

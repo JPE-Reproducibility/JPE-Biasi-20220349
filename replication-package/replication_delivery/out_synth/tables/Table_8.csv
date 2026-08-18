@@ -1,0 +1,6 @@
+row_label,Case1_minus_Base,Case2_minus_Base,Case2New2_minus_Case2
+TC_bar,20.14,19.93, 0.23
+C1_bar,10.84,10.74, 0.13
+C2_bar, 5.11, 5.03, 0.00
+,,,
+Note: Column 4 (New2-Base)/|Base| values can be found in Table 7.,,,

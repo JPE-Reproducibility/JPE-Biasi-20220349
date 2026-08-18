@@ -1,0 +1,99 @@
+ process            2 of            8 is alive, mpi_id:           1
+ process            7 of            8 is alive, mpi_id:           6
+ process            6 of            8 is alive, mpi_id:           5
+ process            4 of            8 is alive, mpi_id:           3
+ process            5 of            8 is alive, mpi_id:           4
+ process            1 of            8 is alive, mpi_id:           0
+ process            8 of            8 is alive, mpi_id:           7
+ process            3 of            8 is alive, mpi_id:           2
+The subsidy multipliers are s=(5.40, 2.30), which is equivalent to: r=(2.30, 3.10)
+ working on eqlbm for economy:            1  of            2
+           1
+ belief iter
+ belief thetas   0.42039328557861472     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             96.7027466142720016 time      4.19900000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000        3.2903815876035138     
+           2
+ belief iter
+ belief thetas   0.42034954804737684     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             96.6958299700607569 time      4.16400000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000        4.1129769845043906     
+           3
+ belief iter
+ belief thetas   0.42029478026887657     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             96.6871885224176140 time      4.08700000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000        5.1412212306304896     
+ belief thetas   0.42022617026145459     
+   489.91937807447954           306203   1954.0139395960334           299620   2443.9333176683085           306203
+ working on eqlbm for economy:            2  of            2
+           1
+ belief iter
+ belief thetas   0.43248269865875372     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             98.0829605145992218 time      4.11600000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000        3.6356650461157303     
+           2
+ belief iter
+ belief thetas   0.43244246040707623     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             98.0754039440289915 time      4.08300000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000        4.5445813076446653     
+           3
+ belief iter
+ belief thetas   0.43239207792324930     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             98.0659631779444823 time      4.03100000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000        5.6807266345558336     
+ belief thetas   0.43232896709915736     
+   538.35756225360524           333860   2148.6575761776630           326668   2687.0151384302881           333860
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ --------------
+ END OF PROGRAM

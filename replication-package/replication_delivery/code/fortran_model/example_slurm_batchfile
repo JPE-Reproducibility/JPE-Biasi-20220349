@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#SBATCH --job-name=run_main
+#SBATCH --output=result/run_main.log
+
+#SBATCH --mem=200g
+#SBATCH --ntasks=128
+#SBATCH --partition=fu
+
+# command to execute the code:
+export UCX_NET_DEVICES=bond0
+export OMPI_MCA_mtl="^ofi"
+export OMPI_MCA_btl="^openib,ofi"
+mpiexec run_main

@@ -768,7 +768,7 @@ program main
            deallocate(sim_omegas)
         end if
      end if
-     deallocate(eqbm_omega2)
+     !deallocate(eqbm_omega2)
 
      if (mpi_id == 0) then
         print*, "--------------"

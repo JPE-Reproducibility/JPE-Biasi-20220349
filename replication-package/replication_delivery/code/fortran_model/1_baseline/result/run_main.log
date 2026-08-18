@@ -1,0 +1,226 @@
+ process            7 of            8 is alive, mpi_id:           6
+ process            6 of            8 is alive, mpi_id:           5
+ process            8 of            8 is alive, mpi_id:           7
+ process            2 of            8 is alive, mpi_id:           1
+ process            4 of            8 is alive, mpi_id:           3
+ process            1 of            8 is alive, mpi_id:           0
+ process            3 of            8 is alive, mpi_id:           2
+ process            5 of            8 is alive, mpi_id:           4
+ working on eqlbm for economy:            1  of            2
+ initial main thetas:
+           1   3.5698217230302927     
+           2  -2.1273624865156386     
+           3 -0.27022297813734197     
+           4  0.52892762058405174     
+           5  -7.4177969280387016E-002
+           6 -0.38551103591938640     
+           7  0.53569330430862960     
+           8 -0.12938908085716791     
+           9   2.0171603071462885     
+          10   7.9840602169824635     
+          11  0.73659585030420993     
+          12   6.4757404455956671     
+          13 -0.70772595368719793     
+          14  -2.5099030734646304     
+          15  -5.1299488996493636     
+          16  -5.4117964902734679     
+          17  -7.1303657483632232     
+          18  0.74023524323444601     
+          19   26.861652571537441     
+          20   10.120049633971178     
+          21  0.25000000000000000     
+          22 -0.10000000000000001     
+ initial wage thetas:
+           1   34.132193000000001     
+           2   36.317073999999998     
+           3   38.719518000000001     
+           4   42.635541000000003     
+           5   48.365831999999997     
+           6   54.156267000000000     
+           7   5.7770260000000002     
+           8   20.323433000000001     
+           9   19.127730000000000     
+          10   28.718855999999999     
+          11   25.420002000000000     
+          12   10.463941699999999     
+          13   10.025871400000000     
+          14   13.373343400000000     
+          15   17.908985800000000     
+          16   24.367760900000000     
+          17   27.564488500000000     
+          18   13.894833900000000     
+          19  -77.409255299999998     
+          20  -72.445515000000000     
+          21   1131.0569885000000     
+          22   541.34481819999996     
+          23  -37.012732100000001     
+          24  -7.4967769999999998     
+          25  -508.38637160000002     
+          26   914.12223310000002     
+          27   52.328507299999998     
+          28   47.425174100000000     
+          29   9.0460159999999998     
+          30   33.967639599999998     
+          31   35.063764499999998     
+          32   8.8228653000000001     
+          33   63.621715100000003     
+          34   40.834364700000002     
+          35  0.48450789999999999     
+          36   44.873897900000003     
+          37   27.250420299999998     
+          38   5.2169207999999996     
+          39   276.34917059999998     
+          40   286.60912039999999     
+           1
+ belief iter
+ belief thetas   0.62577039130547296     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             90.5800808764173127 time      3.32400000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000       0.48380784562499990     
+           2
+ belief iter
+ belief thetas   0.62576587861406308     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             90.5795470337561994 time      4.09000000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000       0.36285588421875004     
+           3
+ belief iter
+ belief thetas   0.62576249338562462     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             90.5791466716992062 time      4.40500000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000       0.27214191316406244     
+ belief thetas   0.62575995405669638     
+   489.91937807447954           306203   0.0000000000000000                0   489.91937807447954           306203
+ working on eqlbm for economy:            2  of            2
+ initial main thetas:
+           1   3.5698217230302927     
+           2  -2.1273624865156386     
+           3 -0.27022297813734197     
+           4  0.52892762058405174     
+           5  -7.4177969280387016E-002
+           6 -0.38551103591938640     
+           7  0.53569330430862960     
+           8 -0.12938908085716791     
+           9   2.0171603071462885     
+          10   7.9840602169824635     
+          11  0.73659585030420993     
+          12   6.4757404455956671     
+          13 -0.70772595368719793     
+          14  -2.5099030734646304     
+          15  -5.1299488996493636     
+          16  -5.4117964902734679     
+          17  -7.1303657483632232     
+          18  0.74023524323444601     
+          19   26.861652571537441     
+          20   10.120049633971178     
+          21  0.25000000000000000     
+          22 -0.10000000000000001     
+ initial wage thetas:
+           1   34.132193000000001     
+           2   36.317073999999998     
+           3   38.719518000000001     
+           4   42.635541000000003     
+           5   48.365831999999997     
+           6   54.156267000000000     
+           7   5.7770260000000002     
+           8   20.323433000000001     
+           9   19.127730000000000     
+          10   28.718855999999999     
+          11   25.420002000000000     
+          12   10.463941699999999     
+          13   10.025871400000000     
+          14   13.373343400000000     
+          15   17.908985800000000     
+          16   24.367760900000000     
+          17   27.564488500000000     
+          18   13.894833900000000     
+          19  -77.409255299999998     
+          20  -72.445515000000000     
+          21   1131.0569885000000     
+          22   541.34481819999996     
+          23  -37.012732100000001     
+          24  -7.4967769999999998     
+          25  -508.38637160000002     
+          26   914.12223310000002     
+          27   52.328507299999998     
+          28   47.425174100000000     
+          29   9.0460159999999998     
+          30   33.967639599999998     
+          31   35.063764499999998     
+          32   8.8228653000000001     
+          33   63.621715100000003     
+          34   40.834364700000002     
+          35  0.48450789999999999     
+          36   44.873897900000003     
+          37   27.250420299999998     
+          38   5.2169207999999996     
+          39   276.34917059999998     
+          40   286.60912039999999     
+           1
+ belief iter
+ belief thetas   0.62092632056908081     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             89.6355695572220981 time      4.31200000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000       0.48380784562499990     
+           2
+ belief iter
+ belief thetas   0.62092170211886222     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             89.6350587267713195 time      4.08000000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000       0.36285588421875004     
+           3
+ belief iter
+ belief thetas   0.62091823755258890     
+ stopped because objective value below specified tolerance
+ wage iter
+iterations         2 best value             89.6346756245454372 time      4.17300000
+ itmax exceeded in amoeba
+ still working on convergence
+   0.0000000000000000       0.27214191316406244     
+ belief thetas   0.62091563873189082     
+   538.35756225360524           333860   0.0000000000000000                0   538.35756225360524           333860
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ --------------
+ END OF PROGRAM

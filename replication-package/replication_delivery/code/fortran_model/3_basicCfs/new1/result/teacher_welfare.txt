@@ -1,0 +1,3 @@
+  economy_id aggregate_teacher_welfare
+           1   1365445.8994206844     
+           2   1369433.4867067069     

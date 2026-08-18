@@ -5,7 +5,7 @@ clear all
 
 *--- STEP 1: Read initial_param_guess.txt line by line ---
 tempname fh
-file open `fh' using "$fortran_code/estimation_result/initial_param_guess.txt", read text
+file open `fh' using "$fortran_code/common_f90s/initial_param_guess.txt", read text
 
 local nlines = 0
 file read `fh' line

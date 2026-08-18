@@ -1,0 +1,18 @@
+row_label,metric,new1,new2,new3,new4
+State,TC,-0.00,-0.00,-0.00,-0.00
+State,C1,-0.00,-0.00,-0.00,-0.00
+State,C2,-0.00,-0.00,-0.00,-0.00
+4th quartile lambda_d districts,TC,-0.00,-0.00,-0.00,-0.00
+4th quartile lambda_d districts,C1,-0.00,-0.00,-0.00,-0.00
+4th quartile lambda_d districts,C2, 0.00, 0.00, 0.00, 0.00
+3rd quartile lambda_d districts,TC,-0.00,-0.00,-0.00,-0.00
+3rd quartile lambda_d districts,C1, 0.01, 0.01, 0.01, 0.00
+3rd quartile lambda_d districts,C2,-0.00,-0.00,-0.00,-0.00
+2nd quartile lambda_d districts,TC,-0.00,-0.00,-0.00,-0.00
+2nd quartile lambda_d districts,C1,-0.00,-0.00,-0.00,-0.00
+2nd quartile lambda_d districts,C2, 0.00, 0.00, 0.00, 0.00
+1st quartile lambda_d districts,TC, 0.00, 0.00, 0.00, 0.00
+1st quartile lambda_d districts,C1, 0.00, 0.00, 0.00, 0.00
+1st quartile lambda_d districts,C2,-0.00,-0.00,-0.00,-0.00
+"Bonus Rates (r0, r1)",,"(2.3, 3.1)","(0, 7.0)","(1.6, 4.3)","(3.8, 0)"
+Program cost ($1000 per teacher),,1.62,1.62,1.62,1.62

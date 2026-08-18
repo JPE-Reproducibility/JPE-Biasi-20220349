@@ -1,0 +1,5 @@
+label_left,left_data,left_model,label_right,right_data,right_model
+E(omega1),1,1,E(omega2),66.76000000000001,33.02
+E(omega1^2),1,1.01,E(omega2^2),8464.870000000001,3517.87
+E(omega1*omega2),66.63,33.19,,,
+"Fr((omega1,omega2)=(1,0))",.02,.32,Fr(omega2=0),.14,.41

@@ -11,19 +11,21 @@ clear all
 set maxvar 32000
 set seed 12345
 set sortseed 12345
-set scheme plotplain
 set varabbrev on
 
 ********************************************************************************
 * Install Required Stata Packages
-********************************************************************************
-foreach pkg in estout ftools reghdfe coefplot binscatter carryforward ///
-    spmap sepscatter {
-    capture noisily ssc install `pkg', replace
-    if _rc {
-        display as text "Could not refresh `pkg' from SSC; continuing with locally installed packages."
-    }
-}
+// ********************************************************************************
+// foreach pkg in estout ftools require reghdfe coefplot binscatter ///
+//     carryforward spmap sepscatter blindschemes {
+//     capture noisily ssc install `pkg', replace
+//     if _rc {
+//         display as text "Could not refresh `pkg' from SSC; continuing with locally installed packages."
+//     }
+// }
+
+* blindschemes supplies the plotplain scheme used throughout the workflow.
+set scheme plotplain
 
 ********************************************************************************
 * Locate the replication root
@@ -31,23 +33,23 @@ foreach pkg in estout ftools reghdfe coefplot binscatter carryforward ///
 * Canonical invocation: start Stata in the replication root and run
 *     do code/master_synth.do
 * Running from code/ is also supported.
-local launch_dir `"`c(pwd)'"'
-capture confirm file `"`launch_dir'/code/master_synth.do"'
-if _rc {
-    capture confirm file `"`launch_dir'/master_synth.do"'
-    if !_rc {
-        quietly cd `"`launch_dir'/.."'
-        local launch_dir `"`c(pwd)'"'
-    }
-}
-capture confirm file `"`launch_dir'/code/master_synth.do"'
-if _rc {
-    display as error "Could not locate the replication root."
-    display as error "Start Stata in the replication root and run: do code/master_synth.do"
-    exit 601
-}
-global rootpath `"`launch_dir'"'
-quietly cd "$rootpath"
+// local launch_dir `"`c(pwd)'"'
+// capture confirm file `"`launch_dir'/code/master_synth.do"'
+// if _rc {
+//     capture confirm file `"`launch_dir'/master_synth.do"'
+//     if !_rc {
+//         quietly cd `"`launch_dir'/.."'
+//         local launch_dir `"`c(pwd)'"'
+//     }
+// }
+// capture confirm file `"`launch_dir'/code/master_synth.do"'
+// if _rc {
+//     display as error "Could not locate the replication root."
+//     display as error "Start Stata in the replication root and run: do code/master_synth.do"
+//     exit 601
+// }
+// global rootpath `"`launch_dir'"'
+cd "$rootpath"
 
 global code = "$rootpath/code/"
 global confdata = "$rootpath/synthetic_data"
@@ -165,6 +167,9 @@ do $code/build/build_simulation_lndist.do
 * Generating Tables and Figures - Main paper
 ********************************************************************************
 
+* In-text numerical statements reported in the paper and Online Appendix.
+* Writes $out/tables/Intext_numbers.log before exhibit generation.
+do $code/descriptives/intext_numbers.do
 
 * Tables 1, 3 
 do $code/descriptives/summary.do

@@ -1,0 +1,388 @@
+ process            7 of            8 is alive, mpi_id:           6
+ process            8 of            8 is alive, mpi_id:           7
+ process            6 of            8 is alive, mpi_id:           5
+ process            5 of            8 is alive, mpi_id:           4
+ process            4 of            8 is alive, mpi_id:           3
+ process            1 of            8 is alive, mpi_id:           0
+ process            3 of            8 is alive, mpi_id:           2
+ process            2 of            8 is alive, mpi_id:           1
+ working on eqlbm for economy:            1  of            2
+           1
+ belief iter
+ belief thetas    14.076885593330617     
+ param            1
+ belief thetas    13.607522659328668     
+ param            2
+ belief thetas    14.073503013472571     
+ param            3
+ belief thetas    14.015783734747586     
+ param            4
+ belief thetas    14.076889550240503     
+ param            5
+ belief thetas    14.072290663622166     
+ param            6
+ belief thetas    13.906830633207402     
+ param            7
+ belief thetas    13.837906321854634     
+ param            8
+ belief thetas    14.001747773204704     
+ param            9
+ belief thetas    14.076910845922477     
+ param           10
+ belief thetas    14.076889580257511     
+ param           11
+ belief thetas    14.076888580179538     
+ param           12
+ belief thetas    14.076885602691926     
+ param           13
+ belief thetas    14.056361117621925     
+ param           14
+ belief thetas    14.061104383025603     
+ param           15
+ belief thetas    13.744947468229537     
+ param           16
+ belief thetas    13.369068640431598     
+ param           17
+ belief thetas    13.476479641276160     
+ param           18
+ belief thetas    14.074993283748986     
+ param           19
+ belief thetas    14.076885593332587     
+ param           20
+ belief thetas    14.077026647005932     
+ param           21
+ belief thetas    14.076885593330617     
+ param           22
+ belief thetas    14.076885593330617     
+ belief thetas    13.850429546918495     
+iterations         1 best value             13.3690686404315979 time      2.10000000
+ belief thetas    13.829969024716144     
+iterations         2 best value             13.3690686404315979 time      2.12900000
+ itmax exceeded in amoeba
+ wage iter
+iterations         1 best value             88.0786403819628987 time      2.01500000
+iterations         3 best value             72.2122538311251247 time      4.14600000
+ itmax exceeded in amoeba
+ still working on convergence
+   5.0505051341254879E-003   2.7436747407242672     
+           2
+ belief iter
+ belief thetas    13.364721695715296     
+ param            1
+ belief thetas    12.857198294751065     
+ param            2
+ belief thetas    13.359769791500526     
+ param            3
+ belief thetas    13.298210184743303     
+ param            4
+ belief thetas    13.364726141920238     
+ param            5
+ belief thetas    13.359938578272548     
+ param            6
+ belief thetas    13.177643840199504     
+ param            7
+ belief thetas    13.105003183152903     
+ param            8
+ belief thetas    13.282517553328699     
+ param            9
+ belief thetas    13.364749694047800     
+ param           10
+ belief thetas    13.364725530677390     
+ param           11
+ belief thetas    13.364724475735432     
+ param           12
+ belief thetas    13.364721704557690     
+ param           13
+ belief thetas    13.339922979822214     
+ param           14
+ belief thetas    13.349573738365686     
+ param           15
+ belief thetas    13.030862572880640     
+ param           16
+ belief thetas    12.664559727936240     
+ param           17
+ belief thetas    12.750779271903985     
+ param           18
+ belief thetas    13.362947296027448     
+ param           19
+ belief thetas    13.364721695717435     
+ param           20
+ belief thetas    13.364847553265133     
+ param           21
+ belief thetas    13.364721695715296     
+ param           22
+ belief thetas    13.364721695715296     
+ belief thetas    13.125085050425325     
+iterations         1 best value             12.6645597279362399 time      2.03700000
+ belief thetas    13.103460527175411     
+iterations         2 best value             12.6645597279362399 time      2.02400000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             72.2120376043980912 time      4.23400000
+ itmax exceeded in amoeba
+ still working on convergence
+   5.0505051341254888E-003   5.8257438410259770     
+           3
+ belief iter
+ belief thetas    12.664560827044475     
+ param            1
+ belief thetas    12.157903536584909     
+ param            2
+ belief thetas    12.659608922829497     
+ param            3
+ belief thetas    12.597148742687889     
+ param            4
+ belief thetas    12.664565349510582     
+ param            5
+ belief thetas    12.660112810615603     
+ param            6
+ belief thetas    12.474269229188959     
+ param            7
+ belief thetas    12.403778427830320     
+ param            8
+ belief thetas    12.580229643267275     
+ param            9
+ belief thetas    12.664589180422318     
+ param           10
+ belief thetas    12.664564550542904     
+ param           11
+ belief thetas    12.664563492170688     
+ param           12
+ belief thetas    12.664560835551308     
+ param           13
+ belief thetas    12.636883780838925     
+ param           14
+ belief thetas    12.649412869694897     
+ param           15
+ belief thetas    12.330701704207573     
+ param           16
+ belief thetas    12.061552371413548     
+ param           17
+ belief thetas    12.050618403231658     
+ param           18
+ belief thetas    12.662786565805346     
+ param           19
+ belief thetas    12.664560827046461     
+ param           20
+ belief thetas    12.664679382483211     
+ param           21
+ belief thetas    12.664560827044475     
+ param           22
+ belief thetas    12.664560827044475     
+ belief thetas    12.429382063424463     
+iterations         1 best value             12.0506184032316579 time      2.02000000
+ belief thetas    12.408249222250804     
+iterations         2 best value             12.0506184032316579 time      2.02100000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             72.2117674558664930 time      4.04200000
+ itmax exceeded in amoeba
+ still working on convergence
+   5.0505051341254862E-003   7.2821798012824726     
+ belief thetas    12.050619776439286     
+   1363.1946785348612           486003   0.0000000000000000                0   1363.1946785348612           486003
+ working on eqlbm for economy:            2  of            2
+           1
+ belief iter
+ belief thetas    14.156652485964216     
+ param            1
+ belief thetas    13.689762767064279     
+ param            2
+ belief thetas    14.152436147330278     
+ param            3
+ belief thetas    14.095988768890164     
+ param            4
+ belief thetas    14.156656404832452     
+ param            5
+ belief thetas    14.152523972580189     
+ param            6
+ belief thetas    13.985429797521164     
+ param            7
+ belief thetas    13.918790131947093     
+ param            8
+ belief thetas    14.066476691506102     
+ param            9
+ belief thetas    14.156677649556212     
+ param           10
+ belief thetas    14.156656732034920     
+ param           11
+ belief thetas    14.156655661645463     
+ param           12
+ belief thetas    14.156652495585778     
+ param           13
+ belief thetas    14.137545871595576     
+ param           14
+ belief thetas    14.140811693451898     
+ param           15
+ belief thetas    13.827698585373559     
+ param           16
+ belief thetas    13.456316366690107     
+ param           17
+ belief thetas    13.547215458472346     
+ param           18
+ belief thetas    14.154756008862096     
+ param           19
+ belief thetas    14.156652485965004     
+ param           20
+ belief thetas    14.156798012590011     
+ param           21
+ belief thetas    14.156652485964216     
+ param           22
+ belief thetas    14.156652485964216     
+ belief thetas    13.929866358172491     
+iterations         1 best value             13.4563163666901069 time      2.09100000
+ belief thetas    13.909392705663114     
+iterations         2 best value             13.4563163666901069 time      2.10300000
+ itmax exceeded in amoeba
+ wage iter
+iterations         1 best value             86.8539600712045967 time      2.08700000
+iterations         3 best value             71.2323008565899727 time      4.18300000
+ itmax exceeded in amoeba
+ still working on convergence
+   5.0505051341254879E-003   2.7436747407242672     
+           2
+ belief iter
+ belief thetas    13.451748322169051     
+ param            1
+ belief thetas    12.943760570165709     
+ param            2
+ belief thetas    13.445781649637549     
+ param            3
+ belief thetas    13.385417123695172     
+ param            4
+ belief thetas    13.451752759126032     
+ param            5
+ belief thetas    13.447207657980755     
+ param            6
+ belief thetas    13.263492926783467     
+ param            7
+ belief thetas    13.191796879370573     
+ param            8
+ belief thetas    13.352878164359158     
+ param            9
+ belief thetas    13.451776374742833     
+ param           10
+ belief thetas    13.451752416415218     
+ param           11
+ belief thetas    13.451751285579478     
+ param           12
+ belief thetas    13.451748331267027     
+ param           13
+ belief thetas    13.428387879543495     
+ param           14
+ belief thetas    13.436542470530835     
+ param           15
+ belief thetas    13.120688235385350     
+ param           16
+ belief thetas    12.750376271296929     
+ param           17
+ belief thetas    12.828651592165171     
+ param           18
+ belief thetas    13.449970194637759     
+ param           19
+ belief thetas    13.451748322170209     
+ param           20
+ belief thetas    13.451878450347291     
+ param           21
+ belief thetas    13.451748322169051     
+ param           22
+ belief thetas    13.451748322169051     
+ belief thetas    13.210439512166969     
+iterations         1 best value             12.7503762712969291 time      2.04100000
+ belief thetas    13.188676935654332     
+iterations         2 best value             12.7503762712969291 time      2.02500000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             71.2320739233092866 time      4.04000000
+ itmax exceeded in amoeba
+ still working on convergence
+   5.0505051341254888E-003   5.8257438410259770     
+           3
+ belief iter
+ belief thetas    12.750377316808054     
+ param            1
+ belief thetas    12.240221776416870     
+ param            2
+ belief thetas    12.744410644276863     
+ param            3
+ belief thetas    12.682829934629492     
+ param            4
+ belief thetas    12.750381864013068     
+ param            5
+ belief thetas    12.745916278879331     
+ param            6
+ belief thetas    12.558897606891467     
+ param            7
+ belief thetas    12.487925325115475     
+ param            8
+ belief thetas    12.649569814579969     
+ param            9
+ belief thetas    12.750405880342903     
+ param           10
+ belief thetas    12.750381296271270     
+ param           11
+ belief thetas    12.750380161785838     
+ param           12
+ belief thetas    12.750377325559336     
+ param           13
+ belief thetas    12.723924736648664     
+ param           14
+ belief thetas    12.735171465169600     
+ param           15
+ belief thetas    12.419317230032988     
+ param           16
+ belief thetas    12.139720247954687     
+ param           17
+ belief thetas    12.127280586814122     
+ param           18
+ belief thetas    12.748599326328144     
+ param           19
+ belief thetas    12.750377316809443     
+ param           20
+ belief thetas    12.750500090134627     
+ param           21
+ belief thetas    12.750377316808054     
+ param           22
+ belief thetas    12.750377316808054     
+ belief thetas    12.512375539632322     
+iterations         1 best value             12.1272805868141216 time      2.04700000
+ belief thetas    12.491003001177377     
+iterations         2 best value             12.1272805868141216 time      2.10700000
+ itmax exceeded in amoeba
+ wage iter
+iterations         2 best value             71.2317903925233793 time      4.03500000
+ itmax exceeded in amoeba
+ still working on convergence
+   5.0505051341254862E-003   7.2821798012824726     
+ belief thetas    12.127281893030851     
+   1377.3383096908442           492588   0.0000000000000000                0   1377.3383096908442           492588
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ due to singularity, we have NAs, replacing with -1
+ this allows replication code to run on synthetic data. (see statistical_models.f90)
+ --------------
+ END OF PROGRAM

@@ -1,0 +1,591 @@
+ process            1 of            8 is alive, mpi_id:           0
+ process            2 of            8 is alive, mpi_id:           1
+ process            5 of            8 is alive, mpi_id:           4
+ process            8 of            8 is alive, mpi_id:           7
+ process            7 of            8 is alive, mpi_id:           6
+ process            6 of            8 is alive, mpi_id:           5
+ process            3 of            8 is alive, mpi_id:           2
+ process            4 of            8 is alive, mpi_id:           3
+ (re)allocating nteach vars, nteach=        6600
+ Num of Entrants in pool:       13200
+  Baseline prob check:   1209.4687187965642     
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ working on eqlbm for economy:            1  of            2  in period t=           1
+           1
+ wage iter
+iterations         2 best value             95.8093713604416592 time      4.30400000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.50290176724058089        7017.1231186247533        6623.9171283689875     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.42552360021842012     
+           2
+ wage iter
+iterations         2 best value             95.8087853951144979 time      4.75700000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.50289893250166162        7017.1231186247533        6623.9191644646717     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.31914270016381502     
+           3
+ wage iter
+iterations         2 best value             95.8083459330243841 time      4.59100000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.50289680614203935        7017.1231186247533        6623.9206915952473     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.23935702512286125     
+ belief thetas   0.50289680614203935        7017.1231186247533        6623.9206915952473     
+ working on eqlbm for economy:            2  of            2  in period t=           1
+           1
+ wage iter
+iterations         2 best value             97.4579884560311029 time      4.85700000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52198743427544680        7037.5561055706430        6626.3042932667695     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.29418067709309881     
+           2
+ wage iter
+iterations         2 best value             97.4575863662638824 time      4.57200000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52198607967424637        7037.5561055706430        6626.3054351008723     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.22063550781982411     
+           3
+ wage iter
+iterations         2 best value             97.4572848040500190 time      4.62000000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52198506364311370        7037.5561055706430        6626.3062914950215     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.16547663086486802     
+ belief thetas   0.52198506364311370        7037.5561055706430        6626.3062914950215     
+ --------- Equilibrium Simulation Finished ----------           1
+ sim match sum check in obj        6600           0           1
+ inc sum check in obj         408           1         411
+The subsidy multipliers are s=(7.00, .00), which is equivalent to: r=(.00, 7.00)
+ moving population forward, period:           2 of,            6
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   0.0000000000000000      avg % wage change   3.5846310441312612E-003 avg wage change   7.9991616151100148E-002 wage elas:   1.0000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   0.0000000000000000      avg % wage change entrant   2.7739535669941292E-005 avg wage change entrant   6.9015969851857011E-004 wage elas:   1.0000000000000000     
+ before calc wage change
+ In expectation, we will get entrants =         974  and exits =         489
+ (re)allocating nteach vars, nteach=        7085
+           1 nteach:        7085 nExit         489 nEntry         974
+ working on eqlbm for economy:            1  of            2  in period t=           2
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            101.5335618952253185 time      5.47600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.63691860977643888        7532.9537568817350        6352.1559634567684     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        2.2477383036483363     
+           2
+ wage iter
+iterations         2 best value             74.7508669355946012 time      5.56000000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52626097802919536        7537.2835518231223        6362.6230021783649     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        3.4105349717892941     
+           3
+ wage iter
+iterations         2 best value             74.6825737743407814 time      5.52000000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.52768718699675266        7537.2835518231223        6361.5472054027205     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.11483026873788074     
+ belief thetas   0.52768718699675266        7537.2835518231223        6361.5472054027205     
+ working on eqlbm for economy:            2  of            2  in period t=           2
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            112.4163991266337206 time      5.15200000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.28404097759529834        7572.7710920558311        5986.9116169585950     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        3.1749421910546216     
+           2
+ wage iter
+iterations         2 best value             82.3558820153573095 time      5.14500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.21125616960010421        7572.7710920558311        6036.7051659957051     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        4.8221533892885287     
+           3
+ wage iter
+iterations         2 best value             82.2312388093745170 time      5.08200000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.21309047648172930        7572.7710920558311        6033.4426176736442     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.11631761015991086     
+ belief thetas   0.21309047648172930        7572.7710920558311        6033.4426176736442     
+ --------- Equilibrium Simulation Finished ----------           2
+ sim match sum check in obj        7085           0           1
+ inc sum check in obj         411           1         411
+The subsidy multipliers are s=(7.00, .00), which is equivalent to: r=(.00, 7.00)
+ moving population forward, period:           3 of,            6
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   0.0000000000000000      avg % wage change   9.9667887278298423E-003 avg wage change  0.24213153815356769      wage elas:   1.0000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   0.0000000000000000      avg % wage change entrant   2.7739535669941292E-005 avg wage change entrant   6.9015969851857011E-004 wage elas:   1.0000000000000000     
+ before calc wage change
+ In expectation, we will get entrants =         974  and exits =         564
+ (re)allocating nteach vars, nteach=        7495
+           1 nteach:        7495 nExit         564 nEntry         974
+ working on eqlbm for economy:            1  of            2  in period t=           3
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value             84.9089482388450705 time      7.09900000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.86692535525498937        7961.7392144123287        6467.2932844338093     
+ param            1
+ belief thetas    1.0140377014636619        7955.7603033694604        6080.1314760238838     
+ param            2
+ belief thetas   0.95811107572479193        7956.3340884171948        6410.9563026325923     
+ param            3
+ belief thetas   0.88989847145424239        7961.6676862331251        6415.8643048545164     
+ param            4
+ belief thetas   0.86738009268811933        7961.7392144123287        6467.1043866033906     
+ param            5
+ belief thetas   0.86804694125564907        7961.7392144123287        6465.6270770588790     
+ param            6
+ belief thetas   0.89591627746247848        7956.4592627307984        6414.2222963722388     
+ param            7
+ belief thetas   0.93992964115300248        7956.3519704619948        6264.7751651752869     
+ param            8
+ belief thetas   0.85485062417474023        7956.5129088652002        6527.2353413267465     
+ param            9
+ belief thetas   0.86812124450780992        7961.7392144123287        6466.7901425380378     
+ param           10
+ belief thetas   0.86711852147468416        7961.7213323675287        6464.0484434606442     
+ param           11
+ belief thetas   0.86702643313778260        7961.7392144123287        6465.2640720798699     
+ param           12
+ belief thetas   0.86692554693664403        7961.7392144123287        6467.2642270653050     
+ param           13
+ belief thetas   0.86687030365151363        7961.7392144123287        6463.6702123040041     
+ param           14
+ belief thetas    1.3111809503422909        7955.4042220875608        6330.4144717533300     
+ param           15
+ belief thetas   0.88721866266957339        7961.6498041883251        6448.2825747098577     
+ param           16
+ belief thetas   0.95920912561143989        7961.7392144123287        6365.5302073907023     
+ param           17
+ belief thetas   0.90245976022688024        7961.7392144123287        6368.9522417759326     
+ param           18
+ belief thetas   0.86545860439870503        7956.8526677164164        6357.4478751465867     
+ param           19
+ belief thetas   0.86692535525500314        7961.7392144123287        6467.2932844337893     
+ param           20
+ belief thetas   0.86696918455287475        7961.7392144123287        6465.1503098342064     
+ param           21
+ belief thetas   0.86712935333103314        7961.7392144123287        6467.2071168768989     
+ param           22
+ belief thetas   0.85434445402232051        7956.5665549996020        6496.5104306860949     
+ belief thetas   0.57328915959069804        7967.2456756637630        6533.8181700843879     
+ belief thetas   0.46032090384232227        7970.2702527192432        6628.2412074282147     
+ stopped because objective value below specified tolerance
+   3.5573345895369153E-002   2.2024272996591434     
+           2
+ wage iter
+iterations         2 best value             84.9080103062724305 time      8.59600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.46031918605204586        7970.2702527192432        6628.2431320591468     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.26600411559073933     
+           3
+ wage iter
+iterations         2 best value             84.9068396229550757 time      8.59100000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.46031703358623804        7970.2702527192432        6628.2455444258339     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.33250514448842400     
+ belief thetas   0.46031703358623804        7970.2702527192432        6628.2455444258339     
+ working on eqlbm for economy:            2  of            2  in period t=           3
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            109.9186058270789204 time      6.88500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.30191497490788410        8045.8372105282124        6510.5575956448592     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.51030784563382992     
+           2
+ wage iter
+iterations         2 best value            109.9164131351839018 time      7.09300000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.30191340217743784        8045.8372105282124        6510.5612782133740     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.63788480704228756     
+           3
+ wage iter
+iterations         2 best value            109.9136820761193860 time      6.95000000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.30191142641354618        8045.8372105282124        6510.5659097840617     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.79735600880285917     
+ belief thetas   0.30191142641354618        8045.8372105282124        6510.5659097840617     
+ --------- Equilibrium Simulation Finished ----------           3
+ sim match sum check in obj        7495           0           1
+ inc sum check in obj         411           1         411
+The subsidy multipliers are s=(7.00, .00), which is equivalent to: r=(.00, 7.00)
+ moving population forward, period:           4 of,            6
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   0.0000000000000000      avg % wage change   1.3969474660685028E-002 avg wage change  0.35627310817949337      wage elas:   1.0000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   0.0000000000000000      avg % wage change entrant   2.7739535669941292E-005 avg wage change entrant   6.9015969851857011E-004 wage elas:   1.0000000000000000     
+ before calc wage change
+ In expectation, we will get entrants =         974  and exits =         618
+ (re)allocating nteach vars, nteach=        7851
+           1 nteach:        7851 nExit         618 nEntry         974
+ working on eqlbm for economy:            1  of            2  in period t=           4
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            112.3459843106016933 time      9.93500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.49234522259950664        8498.8052706768267        6842.9887907484690     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.30699544290315262     
+           2
+ wage iter
+iterations         2 best value            112.3448595412281321 time      9.91800000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.49234289639143636        8498.8052706768267        6842.9914011111359     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.38374430362894074     
+           3
+ wage iter
+iterations         2 best value            112.3434579883614362 time      9.89700000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.49233998222527131        8498.8052706768267        6842.9946753415416     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.47968037953617576     
+ belief thetas   0.49233998222527131        8498.8052706768267        6842.9946753415416     
+ working on eqlbm for economy:            2  of            2  in period t=           4
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            116.5253918886925817 time      9.92500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.29449490336230549        8564.7701374979788        6795.1085567572472     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.53588873121664238     
+           2
+ wage iter
+iterations         2 best value            116.5233690246026441 time      9.94500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.29449408676608946        8564.7701374979788        6795.1100871281678     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.66986091402080350     
+           3
+ wage iter
+iterations         2 best value            116.5208523499518378 time      9.96800000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.29449305902946338        8564.7701374979788        6795.1120159245347     
+ stopped because objective value below specified tolerance
+   0.0000000000000000       0.83732614252600401     
+ belief thetas   0.29449305902946338        8564.7701374979788        6795.1120159245347     
+ --------- Equilibrium Simulation Finished ----------           4
+ sim match sum check in obj        7851           0           1
+ inc sum check in obj         417           1         411
+The subsidy multipliers are s=(7.00, .00), which is equivalent to: r=(.00, 7.00)
+ moving population forward, period:           5 of,            6
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   0.0000000000000000      avg % wage change   1.5151826297229292E-002 avg wage change  0.40878239116378479      wage elas:   1.0000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   0.0000000000000000      avg % wage change entrant   2.7718134422507950E-005 avg wage change entrant   6.8962723544309119E-004 wage elas:   1.0000000000000000     
+ before calc wage change
+ In expectation, we will get entrants =         974  and exits =         646
+ (re)allocating nteach vars, nteach=        8179
+           1 nteach:        8179 nExit         646 nEntry         974
+ working on eqlbm for economy:            1  of            2  in period t=           5
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            100.6272762706054493 time     10.90500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.54796933374273493        9156.7669371885659        7198.1436822123678     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        7.6709901885461873     
+           2
+ wage iter
+iterations         2 best value            100.6270619759971368 time     10.85600000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.54797024314010800        9156.7669371885659        7198.1806514365735     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        9.5887377356827361     
+           3
+ wage iter
+iterations         2 best value            100.6267943032701453 time     10.93300000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.54797138021837999        9156.7669371885659        7198.2268202855539     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        11.985922169603418     
+ belief thetas   0.54797138021837999        9156.7669371885659        7198.2268202855539     
+ working on eqlbm for economy:            2  of            2  in period t=           5
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            102.7966089447556612 time     10.75900000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.33011501475190685        9233.8557912954238        7094.8211300702387     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        6.6978785322790602     
+           2
+ wage iter
+iterations         2 best value            102.7964269267127690 time     10.76700000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.33011639943726406        9233.8557912954238        7094.8586008307093     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        8.3723481653488303     
+           3
+ wage iter
+iterations         2 best value            102.7961995403012878 time     10.79500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.33011813005613660        9233.8557912954238        7094.9054121560894     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        10.465435206686038     
+ belief thetas   0.33011813005613660        9233.8557912954238        7094.9054121560894     
+ --------- Equilibrium Simulation Finished ----------           5
+ sim match sum check in obj        8179           0           1
+ inc sum check in obj         418           1         411
+The subsidy multipliers are s=(7.00, .00), which is equivalent to: r=(.00, 7.00)
+ moving population forward, period:           6 of,            6
+ before calc wage change
+ lets check here if the wage change makes sense in terms of magnitude
+ wage change 1 teacher   0.0000000000000000      avg % wage change   1.6176053341496879E-002 avg wage change  0.46153539767674123      wage elas:   1.0000000000000000     
+ lets check here if the entrant wage change makes sense in terms of magnitude
+ wage change 1 entrant   0.0000000000000000      avg % wage change entrant   2.7718134422507950E-005 avg wage change entrant   6.8962723544309119E-004 wage elas:   1.0000000000000000     
+ before calc wage change
+ In expectation, we will get entrants =         974  and exits =         689
+ (re)allocating nteach vars, nteach=        8464
+           1 nteach:        8464 nExit         689 nEntry         974
+ working on eqlbm for economy:            1  of            2  in period t=           6
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ slave before generate inc variables
+ finished setting entrants
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value             99.5713624558811574 time     10.87100000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.61780800037197459        9894.3565437502239        7383.1916795200095     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        7.9136612435398090     
+           2
+ wage iter
+iterations         2 best value             99.5711319151428569 time     10.90900000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.61780900256483073        9894.3565437502239        7383.2289038482977     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        9.8920765544247615     
+           3
+ wage iter
+iterations         2 best value             99.5708439439013375 time     11.10900000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.61781025549125590        9894.3565437502239        7383.2753871204832     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        12.365095693030957     
+ belief thetas   0.61781025549125590        9894.3565437502239        7383.2753871204832     
+ working on eqlbm for economy:            2  of            2  in period t=           6
+ sharing data for forward iter
+ share C1
+ share C2
+ share exp
+ share master
+ slave before generate exp variables
+ slave before generate wagesched variables
+ finished setting entrants
+ slave before generate inc variables
+ finished setting czten and tenure
+ finished setting logdist
+ slave made it to end of generate teacher data
+ finished sharing and generating inc
+ sharing udist for forward iter
+           1
+ wage iter
+iterations         2 best value            105.1247993860377363 time     13.85500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.35224092312362193        9833.0502981370191        7200.5800933809296     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        8.2783279895414346     
+           2
+ wage iter
+iterations         2 best value            105.1245387595088943 time     13.22300000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.35224241918863047        9833.0502981370191        7200.6204775375545     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        10.347909986926799     
+           3
+ wage iter
+iterations         2 best value            105.1242131701418572 time     13.13500000
+ itmax exceeded in amoeba
+ belief iter
+ belief thetas   0.35224428896672000        9833.0502981370191        7200.6709198220133     
+ stopped because objective value below specified tolerance
+   0.0000000000000000        12.934887483658496     
+ belief thetas   0.35224428896672000        9833.0502981370191        7200.6709198220133     
+ --------- Equilibrium Simulation Finished ----------           6
+ sim match sum check in obj        8464           0           1
+ inc sum check in obj         419           1         411
+ --------------
+ END OF PROGRAM

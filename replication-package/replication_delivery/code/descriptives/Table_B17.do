@@ -174,4 +174,3 @@ set obs `newobs'
 replace variable = "Note: Baseline columns (columns 1 and 3 in Table B17) can be found in Table 7." in `newobs'
 
 export delimited using "$out/tables/Table_B17.csv", replace
-
